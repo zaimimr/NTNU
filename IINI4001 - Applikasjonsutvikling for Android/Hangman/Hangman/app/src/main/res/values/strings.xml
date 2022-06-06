@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangman English</string>
+    <string name="start">Start game</string>
+    <string name="infotw">The game where we hang men!</string>
+    <string name="next">Next word</string>
+    <string name="win">Right word!</string>
+    <string name="lose">Wrong word!</string>
+    <string name="number_letter">26</string>
+    <string name="ferdig">Not any words! Quit!</string>
+    <string name="ord_total">Words total:</string>
+    <string name="ord_spilt">Words played:</string>
+    <string name="riktig">Right:</string>
+    <string name="feil">Wrong:</string>
+    <string name="title_list">Select language</string>
+    <string name="info">Hangman?</string>
+    <string name="tutorial">A game where you try to guess the word before the man is hanged. You are allowed to make 6 mistakes before the man is hanged.</string>
+    <string name="exit">Exit</string>
+    <string name="credit">Created by: Zaim Imran</string>
+    <string name="hangman">Hangman</string>
+
+    <string-array name="ord">
+        <item>MOUSE</item>
+        <item>TERMINAL</item>
+        <item>OBJECT</item>
+        <item>CELLPHONE</item>
+        <item>GAMING</item>
+        <item>GLOBAL</item>
+        <item>GHOST</item>
+        <item>TIGER</item>
+        <item>APPLE</item>
+        <item>ACHIVEMENT</item>
+    </string-array>
+
+</resources>

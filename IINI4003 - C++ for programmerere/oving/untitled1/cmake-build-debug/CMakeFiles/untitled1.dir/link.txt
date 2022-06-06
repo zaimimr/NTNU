@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++1y -Wall -Wextra -pthread -g   CMakeFiles/untitled1.dir/oppgave5.cpp.o  -o untitled1 

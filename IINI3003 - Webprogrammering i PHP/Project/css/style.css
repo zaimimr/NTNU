@@ -1,0 +1,131 @@
+body{
+  background-color:  white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar {
+  overflow: hidden;
+  background-color: dimgray;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.navBar__menu--button {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;  
+  }
+.navBar__menu--button:hover {
+  color: yellow;
+  background: gray;
+}
+.navBar__form{
+  float: right;
+  padding-top: 12px;
+}
+.navBar__form--input{
+  font-size: 17px;
+  width: 150px;
+}
+.navBar__form--button{
+  background: dimgray;
+  font-size: 17px;
+  border:none;
+  cursor: pointer;
+  height: 4.5%;
+  color: black;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.navBar__form--button:hover{
+  background: gray;
+  color: yellow;
+}
+
+.sections{
+  background-color: white;
+  padding: 20px 15px;
+}
+.sectionsGray{
+  background-color: whitesmoke;
+  padding: 20px 15px;
+}
+.cards{
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.signUp__form--input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.signUp__form--button{
+  width: 100%;
+  background-color: gray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.signUp__form--button:hover{
+  background-color: dimgray;
+  color: yellow;
+}
+
+.table__input{
+  background: transparent;
+  border: none;
+  cursor:default;
+  text-align:start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.table__input--submit{
+  cursor:pointer;
+  text-align:start;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: dimgray;
+  color: white;
+  padding: 2px 5px;
+  border: 0px;
+  width: 50px;
+  text-align: center;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 5px;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: dimgray;
+  color: white;
+}

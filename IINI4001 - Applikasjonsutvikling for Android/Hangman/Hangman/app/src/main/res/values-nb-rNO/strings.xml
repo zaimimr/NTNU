@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangman Norsk</string>
+    <string name="start">Start spillet</string>
+    <string name="infotw">Spillet der vi henger menn!</string>
+    <string name="title_list">Velg språk</string>
+    <string name="next">Neste ord</string>
+    <string name="win">Riktig ord!</string>
+    <string name="lose">Feil ord!</string>
+    <string name="number_letter">29</string>
+    <string name="ferdig">Tom for ord! Avslutt!</string>
+    <string name="ord_total">Ord totals:</string>
+    <string name="ord_spilt">Ord Spilt:</string>
+    <string name="riktig">Riktig:</string>
+    <string name="feil">Feil:</string>
+    <string name="info">Hangman?</string>
+    <string name="tutorial">" Et spill hvor du prøver å gjette ordet før mannen blir hengt. Du har lov til å gjøre 6 feil før mannen blir hengt."</string>
+    <string name="exit">Avslutt</string>
+    <string name="credit">Laget av: Zaim Imran</string>
+    <string name="hangman">Hangman</string>
+
+    <string-array name="ord">
+        <item>PROGRAM</item>
+        <item>KUBE</item>
+        <item>KLOKKE</item>
+        <item>MONITOR</item>
+        <item>RING</item>
+        <item>PARAMETER</item>
+        <item>SJOKOLADE</item>
+        <item>PANDA</item>
+        <item>APPELSIN</item>
+        <item>DRØFTELSE</item>
+    </string-array>
+</resources>

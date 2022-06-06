@@ -1,0 +1,2 @@
+I dette tilfelle kan vi lage både klassifikasjons tre og regresjons tre. Et klassifikasjons tre deler det man ønsker å "måle" i ulike klasser, i dette tilfelle vin kvalitet.
+I tillegg kan vi bruke regresjon tre som tar utgangspunkt i numeriske verdier, som penger eller vin kvalitet. Siden vi har et numerisk verdi på kvalitet har vi mulighet til å lage et regresjons tre til dette.

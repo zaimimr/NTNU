@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  color: black;
+  font-family: 'Verdana';
+  background: #13358C url('bakgrunn-blaa.jpg') repeat-y scroll 0 0;
+
+}
+
+h2 {
+	font-size: 16px;
+}
+
+a:link {text-decoration: underline}
+a:visited {text-decoration: underline}
+a:active {text-decoration: underline}
+a:hover {text-decoration: underline; color: red;}
+
+#header {
+	width:100%;
+	height:110px;
+	background-image: url('logo.jpg'); 
+	background-repeat:no-repeat;
+	background-position:right top;
+	color:#ffffff;
+}
+#header p {
+	font-size:12px;
+}
+#header h1 {
+	margin-right:100px;
+
+}
+
+#page {
+	background-color:#f1f1f1;
+	margin:5px 25px 25px 25px;
+	padding:10px 10px 25px 10px;
+	border:2px solid #fff;
+	outline:1px solid #ccc;
+	text-align:left;
+    font-size: 14px;
+}
+
+/* Boksen der temaliste er brukt */
+#temaliste {
+	/*border: 2px solid #000;*/
+	width:80%;
+}
+/* Gjelder bare ul-elementer med id=temaliste */
+#temaliste li {
+	list-style-type: none;
+	padding:10px;
+}
+/* Alternerer bakgrunnsfarge */
+#temaliste li:nth-child(odd) { 
+	background: lightgrey; 
+}
+
+#bilde {
+	float:right;
+}
+
+#videoboks {
+	margin-left: 25px;
+}
+
+#infoboks {
+	border:2px solid;
+	float:right;
+	width:200px;
+	font-size:12px;
+	margin: 25px; 
+	padding: 5px;
+}
+
+#footer {
+	text-align: center;
+	font-size:12px;
+	padding: 5px;
+	color:white;
+}
+
+#footer a:link {color:white}
+#footer a:visited {color:white}
+#footer a:active {color:white}
+#footer a:hover {color:red}

@@ -1,0 +1,136 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/containers/Landing/index.js":
+/*!*****************************************!*\
+  !*** ./src/containers/Landing/index.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/styles/index.js");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _api_services_MiscService__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../api/services/MiscService */ "./src/api/services/MiscService.js");
+/* harmony import */ var _components_navigation_Navigation__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../components/navigation/Navigation */ "./src/components/navigation/Navigation.js");
+/* harmony import */ var _components_LayoutGrid__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/LayoutGrid */ "./src/containers/Landing/components/LayoutGrid.js");
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\zaimi\\Documents\\TIHLDE\\Kvark\\src\\containers\\Landing\\index.js";
+
+
+
+ // Service Imports
+
+ // Project components
+
+
+
+var styles = {
+  root: {
+    minHeight: '70vh'
+  }
+};
+
+var Landing =
+/*#__PURE__*/
+function (_Component) {
+  Object(C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Landing, _Component);
+
+  function Landing() {
+    var _this;
+
+    Object(C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Landing);
+
+    _this = Object(C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Landing).call(this));
+    _this.state = {
+      isLoading: false
+    };
+    return _this;
+  }
+
+  Object(C_Users_zaimi_Documents_TIHLDE_Kvark_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Landing, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      // Get grid items
+      if (this.props.grid.length === 0) {
+        this.setState({
+          isLoading: true
+        });
+        _api_services_MiscService__WEBPACK_IMPORTED_MODULE_9__["default"].getGridData(function (isError, data) {
+          _this2.setState({
+            isLoading: false
+          });
+        });
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          classes = _this$props.classes,
+          grid = _this$props.grid;
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_navigation_Navigation__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        footer: true,
+        isLoading: this.state.isLoading,
+        whitesmoke: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, this.state.isLoading ? null : react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: classes.root,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_LayoutGrid__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        grid: grid,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      })));
+    }
+  }]);
+
+  return Landing;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+Landing.propTypes = {
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_7___default.a.object,
+  setGridItems: prop_types__WEBPACK_IMPORTED_MODULE_7___default.a.func,
+  grid: prop_types__WEBPACK_IMPORTED_MODULE_7___default.a.array,
+  dispatch: prop_types__WEBPACK_IMPORTED_MODULE_7___default.a.func
+};
+
+var stateValues = function stateValues(state) {
+  return {
+    grid: state.grid.grid
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_8__["connect"])(stateValues)(Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_6__["withStyles"])(styles)(Landing)));
+
+/***/ })
+
+})
+//# sourceMappingURL=main.1f4106fada95e80679b5.hot-update.js.map

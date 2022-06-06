@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++1y -Wall -Wextra -pthread -g   CMakeFiles/webserver.dir/webserver.cpp.o  -o webserver  /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 

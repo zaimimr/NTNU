@@ -1,0 +1,4 @@
+Hva er datofunksjoner?
+- Det er en funksjon som returnerer den date funksjonen som ønskes, kan så ut alt fra dag til år til sekund.
+Anta at vi ønsker å skive ut?
+- Ettersom date funksjonen bruker char for å finne ut av hva den skal returnere vil den antaglig returnere mye rart som de bokstavene tilhører.

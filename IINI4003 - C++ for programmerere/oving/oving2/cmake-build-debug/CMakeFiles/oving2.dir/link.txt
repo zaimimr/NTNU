@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/oving2.dir/oppgave1.cpp.o CMakeFiles/oving2.dir/oppgave4.cpp.o CMakeFiles/oving2.dir/oppgave5.cpp.o CMakeFiles/oving2.dir/oppgave6.cpp.o  -o oving2 

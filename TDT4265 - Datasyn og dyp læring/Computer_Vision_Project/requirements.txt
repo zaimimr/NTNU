@@ -1,0 +1,21 @@
+# From handout_code
+Cython>=0.28.
+scikit-image
+ujson
+pybind11
+pycocotools==2.0.0
+easydict
+omegaconf
+vizer
+
+# Modules added by us
+torch
+torchvision
+tqdm
+opencv-python
+numpy
+cloudpickle
+tensorboard
+matplotlib
+torchinfo
+grad-cam

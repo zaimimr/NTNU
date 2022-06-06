@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/oving3/Circle.cpp
+iostream
+-
+string
+-
+
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/oving3/Commodity.cpp
+iostream
+-
+string
+-
+
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/oving3/main.cpp
+iostream
+-
+string
+-
+vector
+-
+Circle.cpp
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/oving3/Circle.cpp
+Commodity.cpp
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/oving3/Commodity.cpp
+

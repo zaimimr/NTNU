@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++1y -Wall -Wextra -pthread -g   CMakeFiles/oving6_1.dir/main.cpp.o  -o oving6_1 

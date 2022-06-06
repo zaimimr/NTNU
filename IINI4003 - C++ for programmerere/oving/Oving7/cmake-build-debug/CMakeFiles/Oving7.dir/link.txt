@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Oving7.dir/main.cpp.o CMakeFiles/Oving7.dir/fraction.cpp.o CMakeFiles/Oving7.dir/Set.cpp.o  -o Oving7 

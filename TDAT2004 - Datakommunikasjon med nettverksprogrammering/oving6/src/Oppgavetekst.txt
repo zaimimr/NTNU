@@ -1,0 +1,15 @@
+Oppgave 1)
+Optimistisk låsing er en del av Java Persistance API og løser problemet med at flere klienter akkseserer samme verdi.
+Dette fungerer ved at JPA legger ved et ekstra felt i databasen f.eks. kalt locking_field.
+locking_field vil låses hver gang noen skriver til akkuratt dette objektet/raden/entiteten.
+Slik kan JPA bruke locking_field til å se om andre har oppdatert verdien siden sist lesing.
+
+Oppgave 3)
+Jeg la merke til at flere transaksjoner ikke gikk gjennom. For å virkelig testet kjørte jeg tre tråder som
+overførte 1000kr fra en konto til en annen. Uten optimistisk låsing ble transaksjonene helt feil, hvor det det ble tap av penger.
+Skulle dette gå som planlagt skulle bruker 1 få 3000kr fra bruker 2, men det endte med mange ulike svar, der ingen av de var rett.
+
+Oppgave 4)
+For å bruke optimistisk låsing la jeg til et nytt felt i Account som jeg kalte
+"locking_field" med annotasjonen @Version. Dette viste seg å løse problemet som oppstod i oppgave 3
+og overføringene var konstant 3000 ut 3000 in.

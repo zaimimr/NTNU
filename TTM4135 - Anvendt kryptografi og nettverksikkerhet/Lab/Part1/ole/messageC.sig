@@ -1,0 +1,18 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Hei kompis!!! :))))) ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEfsopTlA5aybEg3NGQ62boyKlJc8FAmIpvskACgkQQ62boyKl
+Jc/+Twv/WplQlbPlWR9tMd79ESveoWhpIkQpwXPgD5+jXJsgcABUOgEmEa+ShJUl
+oDab+g/qoEDZPi4GOm++A7BXGWnNRxebHyCiifFFQZ36Pzjfiv2QaOQy5Yh3YBhO
+div6k4dHF8My7iJKBTRhsqK8pSgqxWzdtU18wt30DDp93pmMetaHM/JWFy3UFgE0
+GQP7QetEC9ot4HwjD2DUwip6tkT6Q39bnamvb+KnKUIlOslUlb8NA/cZsFV8oAZY
+QjT4BKX/lNpszb0x1w1zrLn9Kwd6Vm6134DZcsrX0itVhBYHNLZzSSqQj/8zoSxp
+yt40LiHWeoCI1bc3K91FZ6/wrA/oVdbuDO/jHZiEmtdMLNoRyQBHaMDQQy6QxRR8
+tuQdwYFlxzUysOrtEv5aOEA8ch2rC2cwDFKwXjLUXRDOgs0DJsMpiTcSk+6boFYe
+DnpvUu4hWsxxulZgsdH/4OGmGwU7BFQv3Ek0rWZDspiUM/TpqViIKqUlEbLomd60
+zuAUWh0f
+=6/tH
+-----END PGP SIGNATURE-----

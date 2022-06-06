@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "zuimran",
+    "password": "xaXIMlNC",
+    "database": "zuimran",
+    "host": "mysql.stud.iie.ntnu.no",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  },
+  "test": {
+    "username": "root",
+    "password": "mysql",
+    "database": "yeet",
+    "host": "mysql",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  },
+  "production": {
+    "username": "zuimran",
+    "password": "xaXIMlNC",
+    "database": "zuimran",
+    "host": "mysql.stud.iie.ntnu.no",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  }
+}

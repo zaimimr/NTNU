@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/oving2/oppgave1.cpp
+iostream
+-
+
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/oving2/oppgave4.cpp
+iostream
+-
+
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/oving2/oppgave5.cpp
+iostream
+-
+

@@ -1,0 +1,3 @@
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/Oving7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/Oving7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zaim/Dropbox/NTNU/Semester 5/C++/oving/Oving7/cmake-build-debug/CMakeFiles/Oving7.dir

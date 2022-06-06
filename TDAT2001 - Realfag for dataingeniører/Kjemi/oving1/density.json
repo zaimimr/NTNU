@@ -1,0 +1,1182 @@
+[
+  {
+    "name": "Hydrogen",
+    "symbol": "H",
+    "density": 0.00008988,
+    "number_of_atoms_per_volume_unit": 0.054,
+    "atomic_number": 1,
+    "description_mohs' hardness": "gas",
+    "color": "",
+    "notes": "diatomic"
+  },
+  {
+    "name": "Helium",
+    "symbol": "He",
+    "density": 0.0001785,
+    "number_of_atoms_per_volume_unit": 0.027,
+    "atomic_number": 2,
+    "description_mohs' hardness": "noble gas",
+    "color": "",
+    "notes": "lowest boiling and melting points of any element"
+  },
+  {
+    "name": "Neon",
+    "symbol": "Ne",
+    "density": 0.0008999,
+    "number_of_atoms_per_volume_unit": 0.027,
+    "atomic_number": 10,
+    "description_mohs' hardness": "noble gas",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Nitrogen",
+    "symbol": "N",
+    "density": 0.0012506,
+    "number_of_atoms_per_volume_unit": 0.054,
+    "atomic_number": 7,
+    "description_mohs' hardness": "gas",
+    "color": "",
+    "notes": "diatomic"
+  },
+  {
+    "name": "Oxygen",
+    "symbol": "O",
+    "density": 0.001429,
+    "number_of_atoms_per_volume_unit": 0.054,
+    "atomic_number": 8,
+    "description_mohs' hardness": "gas",
+    "color": "",
+    "notes": "diatomic"
+  },
+  {
+    "name": "Fluorine",
+    "symbol": "F",
+    "density": 0.001696,
+    "number_of_atoms_per_volume_unit": 0.054,
+    "atomic_number": 9,
+    "description_mohs' hardness": "halogen gas",
+    "color": "yellow-green or yellowish brown",
+    "notes": ""
+  },
+  {
+    "name": "Argon",
+    "symbol": "Ar",
+    "density": 0.0017837,
+    "number_of_atoms_per_volume_unit": 0.027,
+    "atomic_number": 18,
+    "description_mohs' hardness": "noble gas",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Chlorine",
+    "symbol": "Cl",
+    "density": 0.003214,
+    "number_of_atoms_per_volume_unit": 0.055,
+    "atomic_number": 17,
+    "description_mohs' hardness": "halogen gas",
+    "color": "yellowish green or greenish yellow",
+    "notes": ""
+  },
+  {
+    "name": "Krypton",
+    "symbol": "Kr",
+    "density": 0.003733,
+    "number_of_atoms_per_volume_unit": 0.027,
+    "atomic_number": 36,
+    "description_mohs' hardness": "noble gas",
+    "color": "",
+    "notes": "forms compounds with fluorine and clathrates with water"
+  },
+  {
+    "name": "Xenon",
+    "symbol": "Xe",
+    "density": 0.005887,
+    "number_of_atoms_per_volume_unit": 0.027,
+    "atomic_number": 54,
+    "description_mohs' hardness": "noble gas",
+    "color": "",
+    "notes": "Forms compounds with chlorine and fluorine, and a few others."
+  },
+  {
+    "name": "Radon",
+    "symbol": "Rn",
+    "density": 0.00973,
+    "number_of_atoms_per_volume_unit": 0.027,
+    "atomic_number": 86,
+    "description_mohs' hardness": "noble gas",
+    "color": "",
+    "notes": "radioactive, comes from radium"
+  },
+  {
+    "name": "Lithium",
+    "symbol": "Li",
+    "density": 0.534,
+    "number_of_atoms_per_volume_unit": 46.331,
+    "atomic_number": 3,
+    "description_mohs' hardness": 0.6,
+    "color": "silvery white/gray",
+    "notes": "used in batteries"
+  },
+  {
+    "name": "Potassium",
+    "symbol": "K",
+    "density": 0.862,
+    "number_of_atoms_per_volume_unit": 13.277,
+    "atomic_number": 19,
+    "description_mohs' hardness": 0.4,
+    "color": "silvery white",
+    "notes": "forms many compounds, essential nutrient in plants and animals"
+  },
+  {
+    "name": "Sodium",
+    "symbol": "Na",
+    "density": 0.971,
+    "number_of_atoms_per_volume_unit": 25.435,
+    "atomic_number": 11,
+    "description_mohs' hardness": 0.5,
+    "color": "waxy, silvery white",
+    "notes": "burns with a yellow flame, reacts violently with water, and oxidizes in air necessitating storage in an inert environment"
+  },
+  {
+    "name": "Rubidium",
+    "symbol": "Rb",
+    "density": 1.532,
+    "number_of_atoms_per_volume_unit": 10.795,
+    "atomic_number": 37,
+    "description_mohs' hardness": 0.3,
+    "color": "silvery-white",
+    "notes": "low melting point, reacts violently with water like sodium"
+  },
+  {
+    "name": "Calcium",
+    "symbol": "Ca",
+    "density": 1.54,
+    "number_of_atoms_per_volume_unit": 23.14,
+    "atomic_number": 20,
+    "description_mohs' hardness": 1.75,
+    "color": "gray",
+    "notes": "reacts slowly with water, tarnishes quickly in air"
+  },
+  {
+    "name": "Magnesium",
+    "symbol": "Mg",
+    "density": 1.738,
+    "number_of_atoms_per_volume_unit": 43.063,
+    "atomic_number": 12,
+    "description_mohs' hardness": 2.5,
+    "color": "silvery metallic",
+    "notes": "brittle, flammable, used in lightweight alloys, burns with a bright flame"
+  },
+  {
+    "name": "Phosphorus",
+    "symbol": "P",
+    "density": 1.82,
+    "number_of_atoms_per_volume_unit": 35.386,
+    "atomic_number": 15,
+    "description_mohs' hardness": "nonmetal",
+    "color": "waxy white/ red/ black/ colorless",
+    "notes": "Due to its high reactivity, it is never found as a free element in nature. Phosphorus compounds are essential to living things"
+  },
+  {
+    "name": "Beryllium",
+    "symbol": "Be",
+    "density": 1.85,
+    "number_of_atoms_per_volume_unit": 123.621,
+    "atomic_number": 4,
+    "description_mohs' hardness": 5.5,
+    "color": "gray metallic",
+    "notes": "brittle, toxic, used in lightweight alloys, e.g. spacecraft and missiles."
+  },
+  {
+    "name": "Francium",
+    "symbol": "Fr",
+    "density": 1.87,
+    "number_of_atoms_per_volume_unit": 5.05,
+    "atomic_number": 87,
+    "description_mohs' hardness": "radioactive alkali metal",
+    "color": "",
+    "notes": "alkali metal isotope found in uranium and thorium ores, reacts explosively with air and water."
+  },
+  {
+    "name": "Caesium",
+    "symbol": "Cs",
+    "density": 1.873,
+    "number_of_atoms_per_volume_unit": 8.487,
+    "atomic_number": 55,
+    "description_mohs' hardness": 0.2,
+    "color": "silvery gold",
+    "notes": "liquid at or near room temperature, very reactive, reacts explosively with water."
+  },
+  {
+    "name": "Sulfur",
+    "symbol": "S",
+    "density": 2.067,
+    "number_of_atoms_per_volume_unit": 38.82,
+    "atomic_number": 16,
+    "description_mohs' hardness": 2,
+    "color": "lemon yellow",
+    "notes": ""
+  },
+  {
+    "name": "Carbon",
+    "symbol": "C",
+    "density": 3.513,
+    "number_of_atoms_per_volume_unit": 113.667,
+    "atomic_number": 6,
+    "description_mohs' hardness": "10.0 (diamond)",
+    "color": "colorless",
+    "notes": ""
+  },
+  {
+    "name": "Carbon",
+    "symbol": "C",
+    "density": 2.267,
+    "number_of_atoms_per_volume_unit": 49.952,
+    "atomic_number": 6,
+    "description_mohs' hardness": "1-2 (graphite)",
+    "color": "black",
+    "notes": ""
+  },
+  {
+    "name": "Silicon",
+    "symbol": "Si",
+    "density": 2.3296,
+    "number_of_atoms_per_volume_unit": 130.347,
+    "atomic_number": 14,
+    "description_mohs' hardness": "6.5 metalloid",
+    "color": "dark gray, bluish tinge",
+    "notes": "Used in semiconductors and electronics."
+  },
+  {
+    "name": "Boron",
+    "symbol": "B",
+    "density": 2.34,
+    "number_of_atoms_per_volume_unit": 18.144,
+    "atomic_number": 5,
+    "description_mohs' hardness": 9.3,
+    "color": "black/brown/ amorphous boron is a brown powder, metallic boron is black",
+    "notes": "The metallic form is hard (9.3 on Mohs' scale) and a poor conductor at room temperature."
+  },
+  {
+    "name": "Strontium",
+    "symbol": "Sr",
+    "density": 2.64,
+    "number_of_atoms_per_volume_unit": 60.218,
+    "atomic_number": 38,
+    "description_mohs' hardness": 1.5,
+    "color": "a soft silver-white or yellowish metallic element",
+    "notes": "The metal turns yellow when exposed to air. somewhat malleable. It is chiefly employed (as in the nitrate) to color pyrotechnic flames red."
+  },
+  {
+    "name": "Aluminium",
+    "symbol": "Al",
+    "density": 2.698,
+    "number_of_atoms_per_volume_unit": 40.04,
+    "atomic_number": 13,
+    "description_mohs' hardness": 2.75,
+    "color": "silvery",
+    "notes": "non-magnetic, very reflective, lightweight, common building material."
+  },
+  {
+    "name": "Scandium",
+    "symbol": "Sc",
+    "density": 2.989,
+    "number_of_atoms_per_volume_unit": 23.53,
+    "atomic_number": 21,
+    "description_mohs' hardness": "transition metal",
+    "color": "soft, silvery, develops a slightly yellowish or pinkish cast when exposed to air",
+    "notes": "not attacked by a 1:1 mixture of nitric acid(HNO3) and 48% HF"
+  },
+  {
+    "name": "Bromine",
+    "symbol": "Br",
+    "density": 3.122,
+    "number_of_atoms_per_volume_unit": 176.141,
+    "atomic_number": 35,
+    "description_mohs' hardness": "halogen",
+    "color": "gas/liquid: red-brown solid: metallic luster",
+    "notes": "a red volatile liquid at standard room temperature. This element is corrosive to human tissue"
+  },
+  {
+    "name": "Barium",
+    "symbol": "Ba",
+    "density": 3.594,
+    "number_of_atoms_per_volume_unit": 15.761,
+    "atomic_number": 56,
+    "description_mohs' hardness": 1.25,
+    "color": "metallic",
+    "notes": "Naturally occurring barium is a mix of seven stable isotopes. There are twenty-two isotopes known, but most of these are highly radioactive and have half-lives in the several millisecond to several minute range. The only notable exceptions are 133Ba which has a half-life of 10.51 years, and 137mBa (2.6 minutes)."
+  },
+  {
+    "name": "Yttrium",
+    "symbol": "Y",
+    "density": 4.469,
+    "number_of_atoms_per_volume_unit": 30.271,
+    "atomic_number": 39,
+    "description_mohs' hardness": "transition metal",
+    "color": "silvery metallic",
+    "notes": "two of its compounds are used to make the red color phosphors in cathode ray tube displays"
+  },
+  {
+    "name": "Titanium",
+    "symbol": "Ti",
+    "density": 4.54,
+    "number_of_atoms_per_volume_unit": 57.118,
+    "atomic_number": 22,
+    "description_mohs' hardness": 6,
+    "color": "silvery metallic",
+    "notes": "corrosion-resistant (including resistance to sea water and chlorine, high tensile strength"
+  },
+  {
+    "name": "Selenium",
+    "symbol": "Se",
+    "density": 4.809,
+    "number_of_atoms_per_volume_unit": 36.677,
+    "atomic_number": 34,
+    "description_mohs' hardness": 2,
+    "color": "gray, metallic luster",
+    "notes": "Selenium has at least 29 isotopes, of which 5 are stable, and 6 are nuclear isomers."
+  },
+  {
+    "name": "Iodine",
+    "symbol": "I",
+    "density": 4.93,
+    "number_of_atoms_per_volume_unit": 23.395,
+    "atomic_number": 53,
+    "description_mohs' hardness": "halogen solid that sublimes at standard temperatures into a purple-pink gas that has an irritating odor",
+    "color": "violet-dark gray, lustrous",
+    "notes": "least reactive of the halogens, still a strong oxidizing agent."
+  },
+  {
+    "name": "Europium",
+    "symbol": "Eu",
+    "density": 5.243,
+    "number_of_atoms_per_volume_unit": 20.777,
+    "atomic_number": 63,
+    "description_mohs' hardness": "lanthanide",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Germanium",
+    "symbol": "Ge",
+    "density": 5.323,
+    "number_of_atoms_per_volume_unit": 44.13,
+    "atomic_number": 32,
+    "description_mohs' hardness": 6,
+    "color": "",
+    "notes": "Used in semiconductors and LED's"
+  },
+  {
+    "name": "Radium",
+    "symbol": "Ra",
+    "density": 5.5,
+    "number_of_atoms_per_volume_unit": 14.656,
+    "atomic_number": 88,
+    "description_mohs' hardness": "",
+    "color": "almost pure white, readily oxidizes on exposure to air, turning black",
+    "notes": "Radium preparations are remarkable for maintaining themselves at a higher temperature than their surroundings, and for their radiations: alpha particles, beta particles, and gamma rays. Radium also produces neutrons when mixed with beryllium."
+  },
+  {
+    "name": "Arsenic",
+    "symbol": "As",
+    "density": 5.776,
+    "number_of_atoms_per_volume_unit": 46.427,
+    "atomic_number": 33,
+    "description_mohs' hardness": 3.5,
+    "color": "metallic gray, allotropic forms; yellow, black and grey",
+    "notes": "poisonous"
+  },
+  {
+    "name": "Gallium",
+    "symbol": "Ga",
+    "density": 5.907,
+    "number_of_atoms_per_volume_unit": 51.02,
+    "atomic_number": 31,
+    "description_mohs' hardness": 1.5,
+    "color": "",
+    "notes": "melts at 29.7 degrees Celsius (just above room temperature), Used in semiconductors."
+  },
+  {
+    "name": "Vanadium",
+    "symbol": "V",
+    "density": 6.11,
+    "number_of_atoms_per_volume_unit": 72.23,
+    "atomic_number": 23,
+    "description_mohs' hardness": 7,
+    "color": "",
+    "notes": "Brittle. Used to make tool steels."
+  },
+  {
+    "name": "Lanthanum",
+    "symbol": "La",
+    "density": 6.145,
+    "number_of_atoms_per_volume_unit": 26.641,
+    "atomic_number": 57,
+    "description_mohs' hardness": 2.5,
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Tellurium",
+    "symbol": "Te",
+    "density": 6.232,
+    "number_of_atoms_per_volume_unit": 29.412,
+    "atomic_number": 52,
+    "description_mohs' hardness": 2.25,
+    "color": "silvery lustrous gray",
+    "notes": ""
+  },
+  {
+    "name": "Zirconium",
+    "symbol": "Zr",
+    "density": 6.506,
+    "number_of_atoms_per_volume_unit": 42.949,
+    "atomic_number": 40,
+    "description_mohs' hardness": 5,
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Antimony",
+    "symbol": "Sb",
+    "density": 6.685,
+    "number_of_atoms_per_volume_unit": 33.063,
+    "atomic_number": 51,
+    "description_mohs' hardness": 3,
+    "color": "silvery lustrous grey",
+    "notes": "toxic"
+  },
+  {
+    "name": "Cerium",
+    "symbol": "Ce",
+    "density": 6.77,
+    "number_of_atoms_per_volume_unit": 29.097,
+    "atomic_number": 58,
+    "description_mohs' hardness": 2.5,
+    "color": "resembles iron",
+    "notes": "Used in ceramics and glassmaking, component of \"flints\" in cigarette lighters."
+  },
+  {
+    "name": "Praseodymium",
+    "symbol": "Pr",
+    "density": 6.773,
+    "number_of_atoms_per_volume_unit": 28.947,
+    "atomic_number": 59,
+    "description_mohs' hardness": "soft",
+    "color": "silvery white, yellowish tinge",
+    "notes": ""
+  },
+  {
+    "name": "Ytterbium",
+    "symbol": "Yb",
+    "density": 6.965,
+    "number_of_atoms_per_volume_unit": 24.24,
+    "atomic_number": 70,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Astatine",
+    "symbol": "At",
+    "density": "7 approximately",
+    "number_of_atoms_per_volume_unit": 20.074,
+    "atomic_number": 85,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "Extremely rare"
+  },
+  {
+    "name": "Neodymium",
+    "symbol": "Nd",
+    "density": 7.007,
+    "number_of_atoms_per_volume_unit": 29.254,
+    "atomic_number": 60,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "used in powerful permanent magnets and LASERs"
+  },
+  {
+    "name": "Zinc",
+    "symbol": "Zn",
+    "density": 7.134,
+    "number_of_atoms_per_volume_unit": 65.682,
+    "atomic_number": 30,
+    "description_mohs' hardness": 2.5,
+    "color": "",
+    "notes": "Used to \"galvanize\" nails, sheet metal, and such."
+  },
+  {
+    "name": "Chromium",
+    "symbol": "Cr",
+    "density": 7.15,
+    "number_of_atoms_per_volume_unit": 82.811,
+    "atomic_number": 24,
+    "description_mohs' hardness": 8.5,
+    "color": "",
+    "notes": "e.g. Stainless steels, chrome plating, heating coils; +6 compounds are toxic."
+  },
+  {
+    "name": "Promethium",
+    "symbol": "Pm",
+    "density": 7.26,
+    "number_of_atoms_per_volume_unit": 30.152,
+    "atomic_number": 61,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Tin",
+    "symbol": "Sn",
+    "density": 7.287,
+    "number_of_atoms_per_volume_unit": 36.967,
+    "atomic_number": 50,
+    "description_mohs' hardness": "1.5 soft metal",
+    "color": "",
+    "notes": "Main component of solder."
+  },
+  {
+    "name": "Indium",
+    "symbol": "In",
+    "density": 7.31,
+    "number_of_atoms_per_volume_unit": 38.341,
+    "atomic_number": 49,
+    "description_mohs' hardness": "soft metal",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Manganese",
+    "symbol": "Mn",
+    "density": 7.44,
+    "number_of_atoms_per_volume_unit": 81.555,
+    "atomic_number": 25,
+    "description_mohs' hardness": 6,
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Samarium",
+    "symbol": "Sm",
+    "density": 7.52,
+    "number_of_atoms_per_volume_unit": 30.118,
+    "atomic_number": 62,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Iron",
+    "symbol": "Fe",
+    "density": 7.874,
+    "number_of_atoms_per_volume_unit": 84.911,
+    "atomic_number": 26,
+    "description_mohs' hardness": "metal",
+    "color": "",
+    "notes": "Most stable element. Greatest number of stable isotopes."
+  },
+  {
+    "name": "Gadolinium",
+    "symbol": "Gd",
+    "density": 7.895,
+    "number_of_atoms_per_volume_unit": 30.235,
+    "atomic_number": 64,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "Phosphor in TV tubes and fluorescent lights."
+  },
+  {
+    "name": "Terbium",
+    "symbol": "Tb",
+    "density": 8.229,
+    "number_of_atoms_per_volume_unit": 31.182,
+    "atomic_number": 65,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "Phosphor in TV tubes and fluorescent lights."
+  },
+  {
+    "name": "Dysprosium",
+    "symbol": "Dy",
+    "density": 8.55,
+    "number_of_atoms_per_volume_unit": 31.686,
+    "atomic_number": 66,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Niobium",
+    "symbol": "Nb",
+    "density": 8.57,
+    "number_of_atoms_per_volume_unit": 55.55,
+    "atomic_number": 41,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Cadmium",
+    "symbol": "Cd",
+    "density": 8.69,
+    "number_of_atoms_per_volume_unit": 46.555,
+    "atomic_number": 48,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "toxic, used in batteries"
+  },
+  {
+    "name": "Holmium",
+    "symbol": "Ho",
+    "density": 8.795,
+    "number_of_atoms_per_volume_unit": 32.113,
+    "atomic_number": 67,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Cobalt",
+    "symbol": "Co",
+    "density": 8.86,
+    "number_of_atoms_per_volume_unit": 90.537,
+    "atomic_number": 27,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "ferromagnetic, used in high temperature alloys, blue pigments, moderate toxicity"
+  },
+  {
+    "name": "Nickel",
+    "symbol": "Ni",
+    "density": 8.912,
+    "number_of_atoms_per_volume_unit": 91.44,
+    "atomic_number": 28,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "alloys, nickel plating"
+  },
+  {
+    "name": "Copper",
+    "symbol": "Cu",
+    "density": 8.96,
+    "number_of_atoms_per_volume_unit": 84.912,
+    "atomic_number": 29,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "noble\" metal, good conductor of electricity and heat"
+  },
+  {
+    "name": "Erbium",
+    "symbol": "Er",
+    "density": 9.066,
+    "number_of_atoms_per_volume_unit": 32.642,
+    "atomic_number": 68,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Polonium",
+    "symbol": "Po",
+    "density": 9.32,
+    "number_of_atoms_per_volume_unit": 19.221,
+    "atomic_number": 84,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "radioactive"
+  },
+  {
+    "name": "Ununhexium",
+    "symbol": "Uuh",
+    "density": "9.32 or greater",
+    "number_of_atoms_per_volume_unit": "26.727 or greater",
+    "atomic_number": 116,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "man-made, highly unstable"
+  },
+  {
+    "name": "Thulium",
+    "symbol": "Tm",
+    "density": 9.321,
+    "number_of_atoms_per_volume_unit": 33.227,
+    "atomic_number": 69,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Bismuth",
+    "symbol": "Bi",
+    "density": 9.807,
+    "number_of_atoms_per_volume_unit": 20.507,
+    "atomic_number": 83,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "electrical solders, fire suppressors, replacement for lead bullets"
+  },
+  {
+    "name": "Ununpentium",
+    "symbol": "Uup",
+    "density": "9.807 or greater",
+    "number_of_atoms_per_volume_unit": "28.261 or greater",
+    "atomic_number": 115,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "unstable, man-made"
+  },
+  {
+    "name": "Lutetium",
+    "symbol": "Lu",
+    "density": 9.84,
+    "number_of_atoms_per_volume_unit": 22.618,
+    "atomic_number": 71,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Lawrencium",
+    "symbol": "Lr",
+    "density": "9.84 or greater",
+    "number_of_atoms_per_volume_unit": "33.868 or greater",
+    "atomic_number": 103,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial"
+  },
+  {
+    "name": "Actinium",
+    "symbol": "Ac",
+    "density": 10.07,
+    "number_of_atoms_per_volume_unit": 26.715,
+    "atomic_number": 89,
+    "description_mohs' hardness": "",
+    "color": "radioactive metallic element. glows in the dark with an eerie blue light.",
+    "notes": ""
+  },
+  {
+    "name": "Molybdenum",
+    "symbol": "Mo",
+    "density": 10.22,
+    "number_of_atoms_per_volume_unit": 64.149,
+    "atomic_number": 42,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "In \"chrome-moly\" steels and other steels, lubricants"
+  },
+  {
+    "name": "Silver",
+    "symbol": "Ag",
+    "density": 10.501,
+    "number_of_atoms_per_volume_unit": 58.626,
+    "atomic_number": 47,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "noble metal, in money, jewelry, eating utensils, soldering and brazing alloys"
+  },
+  {
+    "name": "Lead",
+    "symbol": "Pb",
+    "density": 11.342,
+    "number_of_atoms_per_volume_unit": 23.634,
+    "atomic_number": 82,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "toxic, being phased out in most applications"
+  },
+  {
+    "name": "Ununquadium",
+    "symbol": "Uuq",
+    "density": "11.342 or greater",
+    "number_of_atoms_per_volume_unit": "32.962 or greater",
+    "atomic_number": 114,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "unstable, man-made"
+  },
+  {
+    "name": "Technetium",
+    "symbol": "Tc",
+    "density": 11.5,
+    "number_of_atoms_per_volume_unit": 70.668,
+    "atomic_number": 43,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "man-made, used in nuclear medicine."
+  },
+  {
+    "name": "Thorium",
+    "symbol": "Th",
+    "density": 11.72,
+    "number_of_atoms_per_volume_unit": 30.549,
+    "atomic_number": 90,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "Possible nuclear fuel"
+  },
+  {
+    "name": "Thallium",
+    "symbol": "Tl",
+    "density": 11.85,
+    "number_of_atoms_per_volume_unit": "34.916 or greater",
+    "atomic_number": 81,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "toxic, high-temperature superconductors"
+  },
+  {
+    "name": "Ununtrium",
+    "symbol": "Uut",
+    "density": "11.85 or greater",
+    "number_of_atoms_per_volume_unit": 25.128,
+    "atomic_number": 113,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial element"
+  },
+  {
+    "name": "Palladium",
+    "symbol": "Pd",
+    "density": 12.02,
+    "number_of_atoms_per_volume_unit": 68.018,
+    "atomic_number": 46,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Ruthenium",
+    "symbol": "Ru",
+    "density": 12.37,
+    "number_of_atoms_per_volume_unit": 73.704,
+    "atomic_number": 44,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Rhodium",
+    "symbol": "Rh",
+    "density": 12.41,
+    "number_of_atoms_per_volume_unit": 72.625,
+    "atomic_number": 45,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Hafnium",
+    "symbol": "Hf",
+    "density": 13.31,
+    "number_of_atoms_per_volume_unit": 44.907,
+    "atomic_number": 72,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Einsteinium",
+    "symbol": "Es",
+    "density": "13.5 (Estimate)",
+    "number_of_atoms_per_volume_unit": "32.261 (Estimate)",
+    "atomic_number": 99,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial"
+  },
+  {
+    "name": "Curium",
+    "symbol": "Cm",
+    "density": 13.51,
+    "number_of_atoms_per_volume_unit": 32.939,
+    "atomic_number": 96,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial"
+  },
+  {
+    "name": "Mercury",
+    "symbol": "Hg",
+    "density": 13.5336,
+    "number_of_atoms_per_volume_unit": 40.631,
+    "atomic_number": 80,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "liquid at room temperature; toxic; in batteries and thermometers"
+  },
+  {
+    "name": "Ununbium",
+    "symbol": "Uub",
+    "density": "13.5336 or greater",
+    "number_of_atoms_per_volume_unit": 28.597,
+    "atomic_number": 112,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial element,"
+  },
+  {
+    "name": "Americium",
+    "symbol": "Am",
+    "density": 13.69,
+    "number_of_atoms_per_volume_unit": 19.84,
+    "atomic_number": 95,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "Am-241 used in smoke detectors."
+  },
+  {
+    "name": "Berkelium",
+    "symbol": "Bk",
+    "density": 14.79,
+    "number_of_atoms_per_volume_unit": 36.06,
+    "atomic_number": 97,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial"
+  },
+  {
+    "name": "Californium",
+    "symbol": "Cf",
+    "density": 15.1,
+    "number_of_atoms_per_volume_unit": 36.229,
+    "atomic_number": 98,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial"
+  },
+  {
+    "name": "Protactinium",
+    "symbol": "Pa",
+    "density": 15.37,
+    "number_of_atoms_per_volume_unit": 39.89,
+    "atomic_number": 91,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial"
+  },
+  {
+    "name": "Tantalum",
+    "symbol": "Ta",
+    "density": 16.654,
+    "number_of_atoms_per_volume_unit": 55.426,
+    "atomic_number": 73,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "used in electrolytic capacitors"
+  },
+  {
+    "name": "Rutherfordium",
+    "symbol": "Rf",
+    "density": 18.1,
+    "number_of_atoms_per_volume_unit": 41.763,
+    "atomic_number": 104,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial"
+  },
+  {
+    "name": "Uranium",
+    "symbol": "U",
+    "density": 18.95,
+    "number_of_atoms_per_volume_unit": 51.739,
+    "atomic_number": 92,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "nuclear fuel"
+  },
+  {
+    "name": "Tungsten",
+    "symbol": "W",
+    "density": 19.25,
+    "number_of_atoms_per_volume_unit": 63.058,
+    "atomic_number": 74,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "strong but brittle; heat resistant; extremely high melting point"
+  },
+  {
+    "name": "Gold",
+    "symbol": "Au",
+    "density": 19.282,
+    "number_of_atoms_per_volume_unit": 42.691,
+    "atomic_number": 79,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Roentgenium",
+    "symbol": "Rg",
+    "density": "19.282 or greater",
+    "number_of_atoms_per_volume_unit": "42.691 or greater",
+    "atomic_number": 111,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial"
+  },
+  {
+    "name": "Plutonium",
+    "symbol": "Pu",
+    "density": 19.816,
+    "number_of_atoms_per_volume_unit": 33.788,
+    "atomic_number": 94,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "nuclear fuel"
+  },
+  {
+    "name": "Neptunium",
+    "symbol": "Np",
+    "density": 20.45,
+    "number_of_atoms_per_volume_unit": 48.152,
+    "atomic_number": 93,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Rhenium",
+    "symbol": "Re",
+    "density": 21.02,
+    "number_of_atoms_per_volume_unit": 67.981,
+    "atomic_number": 75,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Platinum",
+    "symbol": "Pt",
+    "density": 21.46,
+    "number_of_atoms_per_volume_unit": 66.246,
+    "atomic_number": 78,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "precious metal and industrial catalyst"
+  },
+  {
+    "name": "Darmstadtium",
+    "symbol": "Ds",
+    "density": "21.46 or greater",
+    "number_of_atoms_per_volume_unit": "47.688 or greater",
+    "atomic_number": 110,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial"
+  },
+  {
+    "name": "Osmium",
+    "symbol": "Os",
+    "density": 22.61,
+    "number_of_atoms_per_volume_unit": 71.577,
+    "atomic_number": 76,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Iridium",
+    "symbol": "Ir",
+    "density": 22.65,
+    "number_of_atoms_per_volume_unit": 70.962,
+    "atomic_number": 77,
+    "description_mohs' hardness": "silvery-white",
+    "color": "",
+    "notes": "Densest natural element"
+  },
+  {
+    "name": "Seaborgium",
+    "symbol": "Sg",
+    "density": "35 (Estimate)",
+    "number_of_atoms_per_volume_unit": "79.239 (Estimate))",
+    "atomic_number": 106,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": "artificial, all remaining elements below are artificial"
+  },
+  {
+    "name": "Meitnerium",
+    "symbol": "Mt",
+    "density": "35 (Estimate)",
+    "number_of_atoms_per_volume_unit": 78.647,
+    "atomic_number": 109,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Bohrium",
+    "symbol": "Bh",
+    "density": "37 (Estimate)",
+    "number_of_atoms_per_volume_unit": "84.401 (Estimate)",
+    "atomic_number": 107,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Dubnium",
+    "symbol": "Db",
+    "density": "39 (Estimate)",
+    "number_of_atoms_per_volume_unit": "89.643 (Estimate)",
+    "atomic_number": 105,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Hassium",
+    "symbol": "Hs",
+    "density": "41 (Estimate)",
+    "number_of_atoms_per_volume_unit": "89.136 (Estimate)",
+    "atomic_number": 108,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Fermium",
+    "symbol": "Fm",
+    "density": "Unknown",
+    "number_of_atoms_per_volume_unit": "Unknown",
+    "atomic_number": 100,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Mendelevium",
+    "symbol": "Md",
+    "density": "Unknown",
+    "number_of_atoms_per_volume_unit": "Unknown",
+    "atomic_number": 101,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Nobelium",
+    "symbol": "No",
+    "density": "Unknown",
+    "number_of_atoms_per_volume_unit": "Unknown",
+    "atomic_number": 102,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  },
+  {
+    "name": "Oganesson",
+    "symbol": "Og",
+    "density": "Unknown",
+    "number_of_atoms_per_volume_unit": "Unknown",
+    "atomic_number": 118,
+    "description_mohs' hardness": "",
+    "color": "",
+    "notes": ""
+  }
+]

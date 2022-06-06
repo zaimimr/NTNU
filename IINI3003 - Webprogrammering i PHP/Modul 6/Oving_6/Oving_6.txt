@@ -1,0 +1,5 @@
+a)
+Jeg vil bruke cookie fordi det er det beste måten å lagre små menge data i browseren.
+
+b)
+ville gjort dette ved å ha 4 input med navn, farge, font, og størrelse, og deretter lage 4 cookies med de verdiene.

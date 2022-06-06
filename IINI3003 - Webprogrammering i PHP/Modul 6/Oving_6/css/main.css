@@ -1,0 +1,132 @@
+body {
+  text-align: center;
+  color: black;
+  font-family: 'Verdana';
+
+}
+
+h2 {
+	font-size: 16px;
+}
+
+a:link {text-decoration: underline;}
+a:visited {text-decoration: underline;}
+a:active {text-decoration: underline;}
+a:hover {text-decoration: underline; color: yellow;}
+
+label{
+  margin-right: 10px;
+  text-align: right;
+}
+
+input{
+  width: 100px;
+}
+
+select{
+  width: 100px;
+}
+
+
+#header {
+  overflow: hidden;
+  background-color: red;
+}
+
+#header a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#header a:hover {
+  color: yellow;
+  background: gray
+}
+
+#header div{
+  flaot:right;
+}
+#header form{
+  float: right;
+}
+#header input[type=text]{
+  margin-top: 6px;
+  font-size: 17px;
+  width: 150px;
+  height:27px;
+}
+
+#header button{
+  margin-right: 16px;
+  background: gray;
+  font-size: 17px;
+  border:none;
+  cursor: pointer;
+  /* height: 35px; */
+}
+
+#header button:hover{
+  background:yellow;
+}
+
+
+#page {
+	background-color:#f1f1f1;
+	margin:5px 25px 25px 25px;
+	padding:10px 10px 25px 10px;
+	border:2px solid #fff;
+	outline:1px solid #ccc;
+	text-align:left;
+    font-size: 14px;
+}
+
+/* Boksen der temaliste er brukt */
+#temaliste {
+	/*border: 2px solid #000;*/
+	width:80%;
+}
+/* Gjelder bare ul-elementer med id=temaliste */
+#temaliste li {
+	list-style-type: none;
+	padding:10px;
+}
+/* Alternerer bakgrunnsfarge */
+#temaliste li:nth-child(odd) {
+	background: lightgrey;
+}
+
+#bilde {
+	float:right;
+}
+
+#videoboks {
+	margin-left: 25px;
+}
+
+#infoboks {
+	border:2px solid;
+	float:right;
+	width:200px;
+	font-size:12px;
+	margin: 25px;
+	padding: 5px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: yellow;
+  text-align: center;
+}
+
+#footer a:link {color:white}
+#footer a:visited {color:white}
+#footer a:active {color:white}
+#footer a:hover {color:red}

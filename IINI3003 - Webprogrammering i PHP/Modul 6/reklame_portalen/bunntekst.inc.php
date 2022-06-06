@@ -1,0 +1,1 @@
+<br><a href='portalMedReklame.php'>Til forsiden</a>

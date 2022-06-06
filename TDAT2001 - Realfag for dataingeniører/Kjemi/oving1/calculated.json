@@ -1,0 +1,828 @@
+{
+  "1": {
+    "empirical_density": 1.540018880064432e-05,
+    "calculated_density": 1.6162869349198836e-06,
+    "compare_empirical_density": -7.447981119935568e-05,
+    "compare_calculated_density": -8.826371306508012e-05,
+    "calculated_distance": 2.650575707554614
+  },
+  "2": {
+    "empirical_density": 5.529808103554745e-07,
+    "calculated_density": 3.207515156571649e-05,
+    "compare_empirical_density": -0.00017794701918964453,
+    "compare_calculated_density": -0.00014642484843428353,
+    "calculated_distance": 3.3392664209709952
+  },
+  "3": {
+    "empirical_density": 5.435373947275471e-07,
+    "calculated_density": 3.5578204056613407e-07,
+    "compare_empirical_density": -0.5339994564626053,
+    "compare_calculated_density": -0.5339996442179594,
+    "calculated_distance": 0.2784260953617513
+  },
+  "4": {
+    "empirical_density": 1.8585465673389094e-06,
+    "calculated_density": 1.531395181828325e-06,
+    "compare_empirical_density": -1.8499981414534328,
+    "compare_calculated_density": -1.8499984686048183,
+    "calculated_distance": 0.200740845736547
+  },
+  "5": {
+    "empirical_density": 4.202623463708073e-06,
+    "calculated_density": 3.9193992049386575e-06,
+    "compare_empirical_density": -2.339995797376536,
+    "compare_calculated_density": -2.339996080600795,
+    "calculated_distance": 0.1972269889478775
+  },
+  "6": {
+    "empirical_density": 8.359601785687292e-06,
+    "calculated_density": 9.533564342990132e-06,
+    "compare_empirical_density": -2.2669916403982144,
+    "compare_calculated_density": -2.266990466435657,
+    "calculated_distance": 0.20643750784599268
+  },
+  "7": {
+    "empirical_density": 1.2176070321740101e-05,
+    "calculated_density": 1.9040709913150713e-05,
+    "compare_empirical_density": -0.00123842392967826,
+    "compare_calculated_density": -0.0012315592900868492,
+    "calculated_distance": 2.6494484583999744
+  },
+  "8": {
+    "empirical_density": 1.768321942016993e-05,
+    "calculated_density": 3.45375379300194e-05,
+    "compare_empirical_density": -0.00141131678057983,
+    "compare_calculated_density": -0.0013944624620699805,
+    "calculated_distance": 2.6491517122184027
+  },
+  "9": {
+    "empirical_density": 3.628427736159459e-05,
+    "calculated_density": 6.121820902439428e-05,
+    "compare_empirical_density": -0.0016597157226384055,
+    "compare_calculated_density": -0.0016347817909756058,
+    "calculated_distance": 2.649598638469154
+  },
+  "10": {
+    "empirical_density": 1.1761593036297073e-06,
+    "calculated_density": 8.779611655611752e-05,
+    "compare_empirical_density": -0.0008987238406963703,
+    "compare_calculated_density": -0.0008121038834438825,
+    "calculated_distance": 3.3393081110309586
+  },
+  "11": {
+    "empirical_density": 9.410842428101242e-07,
+    "calculated_density": 8.001754343298796e-07,
+    "compare_empirical_density": -0.9709990589157572,
+    "compare_calculated_density": -0.9709991998245656,
+    "calculated_distance": 0.3400333180145194
+  },
+  "12": {
+    "empirical_density": 1.7192270630437846e-06,
+    "calculated_density": 1.903281426142203e-06,
+    "compare_empirical_density": -1.737998280772937,
+    "compare_calculated_density": -1.7379980967185737,
+    "calculated_distance": 0.28529771426525463
+  },
+  "13": {
+    "empirical_density": 3.2979802712999514e-06,
+    "calculated_density": 3.9204152550788526e-06,
+    "compare_empirical_density": -2.697996702019729,
+    "compare_calculated_density": -2.697996079584745,
+    "calculated_distance": 0.25512788369506556
+  },
+  "14": {
+    "empirical_density": 5.037505057333689e-06,
+    "calculated_density": 4.902579154253699e-06,
+    "compare_empirical_density": -2.3295949624949426,
+    "compare_calculated_density": -2.329595097420846,
+    "calculated_distance": 0.27152924281467505
+  },
+  "15": {
+    "empirical_density": 7.394440753945451e-06,
+    "calculated_density": 7.856463669416497e-06,
+    "compare_empirical_density": -1.8199926055592461,
+    "compare_calculated_density": -1.8199921435363307,
+    "calculated_distance": 0.3045957640674671
+  },
+  "16": {
+    "empirical_density": 7.654954875362436e-06,
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": -2.066992345045125,
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.29533387496851565
+  },
+  "17": {
+    "empirical_density": 8.46378029615545e-06,
+    "calculated_density": 1.716655334802206e-05,
+    "compare_empirical_density": -0.0032055362197038442,
+    "compare_calculated_density": -0.0031968334466519776,
+    "calculated_distance": 2.6360403102605154
+  },
+  "18": {
+    "empirical_density": 2.66459608672339e-05,
+    "calculated_density": 2.66459608672339e-05,
+    "compare_empirical_density": -0.0017570540391327661,
+    "compare_calculated_density": -0.0017570540391327661,
+    "calculated_distance": 3.3379058607791565
+  },
+  "19": {
+    "empirical_density": 8.765995085682549e-07,
+    "calculated_density": 6.505047086328441e-07,
+    "compare_empirical_density": -0.8619991234004915,
+    "compare_calculated_density": -0.8619993494952913,
+    "calculated_distance": 0.42231179445839717
+  },
+  "20": {
+    "empirical_density": 1.6405894571082773e-06,
+    "calculated_density": 1.310425217171905e-06,
+    "compare_empirical_density": -1.5399983594105429,
+    "compare_calculated_density": -1.5399986895747828,
+    "calculated_distance": 0.3509226884046814
+  },
+  "21": {
+    "empirical_density": 2.6202228873392465e-06,
+    "calculated_density": 1.722839081015367e-06,
+    "compare_empirical_density": -2.9889973797771123,
+    "compare_calculated_density": -2.9889982771609187,
+    "calculated_distance": 0.2923052622156614
+  },
+  "22": {
+    "empirical_density": 4.164506010010799e-06,
+    "calculated_density": 2.0960884107251714e-06,
+    "compare_empirical_density": -4.53999583549399,
+    "compare_calculated_density": -4.53999790391159,
+    "calculated_distance": 0.2596628343517419
+  },
+  "23": {
+    "empirical_density": 4.94289988325913e-06,
+    "calculated_density": 2.432174822277236e-06,
+    "compare_empirical_density": -6.109995057100117,
+    "compare_calculated_density": -6.109997567825178,
+    "calculated_distance": 0.24011899334167727
+  },
+  "24": {
+    "empirical_density": 4.523744353043276e-06,
+    "calculated_density": 2.713675395022698e-06,
+    "compare_empirical_density": -7.149995476255647,
+    "compare_calculated_density": -7.149997286324606,
+    "calculated_distance": 0.22942350864979955
+  },
+  "25": {
+    "empirical_density": 4.779698649148009e-06,
+    "calculated_density": 3.142729447948062e-06,
+    "compare_empirical_density": -7.439995220301351,
+    "compare_calculated_density": -7.439996857270552,
+    "calculated_distance": 0.23059494008133438
+  },
+  "26": {
+    "empirical_density": 4.858604845280737e-06,
+    "calculated_density": 3.51173625215212e-06,
+    "compare_empirical_density": -7.873995141395154,
+    "compare_calculated_density": -7.873996488263748,
+    "calculated_distance": 0.22751636270238887
+  },
+  "27": {
+    "empirical_density": 5.718341772426939e-06,
+    "calculated_density": 4.006274015645197e-06,
+    "compare_empirical_density": -8.859994281658228,
+    "compare_calculated_density": -8.859995993725983,
+    "calculated_distance": 0.22270250817470558
+  },
+  "28": {
+    "empirical_density": 5.695073761237525e-06,
+    "calculated_density": 4.235862495251522e-06,
+    "compare_empirical_density": -8.911994304926239,
+    "compare_calculated_density": -8.911995764137506,
+    "calculated_distance": 0.22196663823337892
+  },
+  "29": {
+    "empirical_density": 6.1659259342890305e-06,
+    "calculated_density": 4.976174511649144e-06,
+    "compare_empirical_density": -8.959993834074066,
+    "compare_calculated_density": -8.959995023825488,
+    "calculated_distance": 0.22751484764802782
+  },
+  "30": {
+    "empirical_density": 6.346694511627974e-06,
+    "calculated_density": 5.453607359457615e-06,
+    "compare_empirical_density": -7.133993653305489,
+    "compare_calculated_density": -7.133994546392641,
+    "calculated_distance": 0.24784746196122995
+  },
+  "31": {
+    "empirical_density": 7.576304117339247e-06,
+    "calculated_density": 6.617146213566974e-06,
+    "compare_empirical_density": -5.906992423695883,
+    "compare_calculated_density": -5.906993382853787,
+    "calculated_distance": 0.26962037348815737
+  },
+  "32": {
+    "empirical_density": 8.878859570837973e-06,
+    "calculated_density": 8.878859570837973e-06,
+    "compare_empirical_density": -5.322991121140429,
+    "compare_calculated_density": -5.322991121140429,
+    "calculated_distance": 0.282980253233368
+  },
+  "33": {
+    "empirical_density": 1.1760476355078898e-05,
+    "calculated_density": 1.2072685304338324e-05,
+    "compare_empirical_density": -5.775988239523644,
+    "compare_calculated_density": -5.775987927314696,
+    "calculated_distance": 0.27823363356089165
+  },
+  "34": {
+    "empirical_density": 1.2394385771219912e-05,
+    "calculated_density": 1.7250705308648988e-05,
+    "compare_empirical_density": -4.808987605614229,
+    "compare_calculated_density": -4.8089827492946915,
+    "calculated_distance": 0.300977337000553
+  },
+  "35": {
+    "empirical_density": 1.2542565864533383e-05,
+    "calculated_density": 2.2966581175681456e-05,
+    "compare_empirical_density": -3.1219874574341353,
+    "compare_calculated_density": -3.1219770334188244,
+    "calculated_distance": 0.34897545467398977
+  },
+  "36": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": 2.9356010051509045e-05,
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": -0.003703643989948491,
+    "calculated_distance": 3.3404750238987213
+  },
+  "37": {
+    "empirical_density": 1.572209184306694e-06,
+    "calculated_density": 1.0964183463011338e-06,
+    "compare_empirical_density": -1.5319984277908156,
+    "compare_calculated_density": -1.5319989035816537,
+    "calculated_distance": 0.4524781314937671
+  },
+  "38": {
+    "empirical_density": 2.6147167713209756e-06,
+    "calculated_density": 1.991509099104191e-06,
+    "compare_empirical_density": -2.6399973852832286,
+    "compare_calculated_density": -2.639998008490901,
+    "calculated_distance": 0.380553845721941
+  },
+  "39": {
+    "empirical_density": 3.6393532657630103e-06,
+    "calculated_density": 2.2275842900021786e-06,
+    "compare_empirical_density": -4.4689963606467344,
+    "compare_calculated_density": -4.46899777241571,
+    "calculated_distance": 0.32086548437330964
+  },
+  "40": {
+    "empirical_density": 5.84824297080933e-06,
+    "calculated_density": 2.491258771967128e-06,
+    "compare_empirical_density": -6.505994151757029,
+    "compare_calculated_density": -6.5059975087412285,
+    "calculated_distance": 0.2855494700971208
+  },
+  "41": {
+    "empirical_density": 7.275333775935382e-06,
+    "calculated_density": 2.857336299514506e-06,
+    "compare_empirical_density": -8.569992724666225,
+    "compare_calculated_density": -8.5699971426637,
+    "calculated_distance": 0.2620824339216858
+  },
+  "42": {
+    "empirical_density": 7.512891175646286e-06,
+    "calculated_density": 3.33926051324605e-06,
+    "compare_empirical_density": -10.219992487108826,
+    "compare_calculated_density": -10.219996660739488,
+    "calculated_distance": 0.24980393805027984
+  },
+  "43": {
+    "empirical_density": 9.5090287596438e-06,
+    "calculated_density": 3.817545282303547e-06,
+    "compare_empirical_density": -11.499990490971241,
+    "compare_calculated_density": -11.499996182454717,
+    "calculated_distance": 0.24187580042950768
+  },
+  "44": {
+    "empirical_density": 1.0982560376625757e-05,
+    "calculated_density": 4.278323789316763e-06,
+    "compare_empirical_density": -12.369989017439623,
+    "compare_calculated_density": -12.36999572167621,
+    "calculated_distance": 0.23850667050414517
+  },
+  "45": {
+    "empirical_density": 9.985013867607399e-06,
+    "calculated_density": 4.744731798689375e-06,
+    "compare_empirical_density": -12.409990014986132,
+    "compare_calculated_density": -12.409995255268202,
+    "calculated_distance": 0.23968376036918806
+  },
+  "46": {
+    "empirical_density": 9.25871121201139e-06,
+    "calculated_density": 5.263498838623872e-06,
+    "compare_empirical_density": -12.019990741288787,
+    "compare_calculated_density": -12.019994736501161,
+    "calculated_distance": 0.24497547217651497
+  },
+  "47": {
+    "empirical_density": 6.287020470858833e-06,
+    "calculated_density": 5.732617825336066e-06,
+    "compare_empirical_density": -10.500993712979529,
+    "compare_calculated_density": -10.500994267382174,
+    "calculated_distance": 0.2574170242377251
+  },
+  "48": {
+    "empirical_density": 7.206511889323506e-06,
+    "calculated_density": 6.430467888899542e-06,
+    "compare_empirical_density": -8.689992793488111,
+    "compare_calculated_density": -8.68999356953211,
+    "calculated_distance": 0.2779794466382632
+  },
+  "49": {
+    "empirical_density": 7.360821290695273e-06,
+    "calculated_density": 7.220172495292365e-06,
+    "compare_empirical_density": -7.309992639178709,
+    "compare_calculated_density": -7.309992779827504,
+    "calculated_distance": 0.2965608888482619
+  },
+  "50": {
+    "empirical_density": 9.295969475307177e-06,
+    "calculated_density": 9.295969475307177e-06,
+    "compare_empirical_density": -7.286990704030525,
+    "compare_calculated_density": -7.286990704030525,
+    "calculated_distance": 0.30018974570552004
+  },
+  "51": {
+    "empirical_density": 9.534809563755387e-06,
+    "calculated_density": 1.2355522252818334e-05,
+    "compare_empirical_density": -6.6849904651904355,
+    "compare_calculated_density": -6.684987644477747,
+    "calculated_distance": 0.31156649622316884
+  },
+  "52": {
+    "empirical_density": 1.1101405287095032e-05,
+    "calculated_density": 1.6369926549177757e-05,
+    "compare_empirical_density": -6.231988898594713,
+    "compare_calculated_density": -6.231983630073451,
+    "calculated_distance": 0.3239595231357736
+  },
+  "53": {
+    "empirical_density": 1.1040893058103394e-05,
+    "calculated_density": 1.9920250218746255e-05,
+    "compare_empirical_density": -4.929988959106941,
+    "compare_calculated_density": -4.929980079749781,
+    "calculated_distance": 0.3496442103129582
+  },
+  "54": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": 2.4881794342711926e-05,
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": -0.005862118205657288,
+    "calculated_distance": 3.3332318256766413
+  },
+  "55": {
+    "empirical_density": 1.8052366293257347e-06,
+    "calculated_density": 1.1989619170756984e-06,
+    "compare_empirical_density": -1.8729981947633707,
+    "compare_calculated_density": -1.872998801038083,
+    "calculated_distance": 0.49025046251941584
+  },
+  "56": {
+    "empirical_density": 3.298769296285466e-06,
+    "calculated_density": 2.0244439628253282e-06,
+    "compare_empirical_density": -3.5939967012307035,
+    "compare_calculated_density": -3.593997975556037,
+    "calculated_distance": 0.39884941655235273
+  },
+  "57": {
+    "empirical_density": 4.472259535255403e-06,
+    "calculated_density": 4.472259535255403e-06,
+    "compare_empirical_density": -6.144995527740464,
+    "compare_calculated_density": -6.144995527740464,
+    "calculated_distance": 0.334823187129907
+  },
+  "58": {
+    "empirical_density": 5.283040453184769e-06,
+    "calculated_density": 8.480625013791004e-06,
+    "compare_empirical_density": -6.7699947169595465,
+    "compare_calculated_density": -6.769991519374986,
+    "calculated_distance": 0.32512424880753454
+  },
+  "59": {
+    "empirical_density": 5.312889428139547e-06,
+    "calculated_density": 2.2323130744992e-06,
+    "compare_empirical_density": -6.772994687110572,
+    "compare_calculated_density": -6.772997767686925,
+    "calculated_distance": 0.32568731206287604
+  },
+  "60": {
+    "empirical_density": 5.438534892284758e-06,
+    "calculated_density": 3.9390858246573115e-06,
+    "compare_empirical_density": -7.006994561465107,
+    "compare_calculated_density": -7.006996060914175,
+    "calculated_distance": 0.32453948290160056
+  },
+  "61": {
+    "empirical_density": 5.467190511517539e-06,
+    "calculated_density": 4.018072880252723e-06,
+    "compare_empirical_density": -7.259994532809488,
+    "compare_calculated_density": -7.259995981927119,
+    "calculated_distance": 0.3212872329762516
+  },
+  "62": {
+    "empirical_density": 5.6692880366329465e-06,
+    "calculated_density": 2.6626423578536266e-06,
+    "compare_empirical_density": -7.519994330711963,
+    "compare_calculated_density": -7.519997337357641,
+    "calculated_distance": 0.32140638485292294
+  },
+  "63": {
+    "empirical_density": 5.7297664751189745e-06,
+    "calculated_density": 2.9431755538198633e-06,
+    "compare_empirical_density": -5.242994270233525,
+    "compare_calculated_density": -5.242997056824446,
+    "calculated_distance": 0.36375024462003924
+  },
+  "64": {
+    "empirical_density": 6.4370151237655715e-06,
+    "calculated_density": 2.9677976167289096e-06,
+    "compare_empirical_density": -7.894993562984876,
+    "compare_calculated_density": -7.894997032202383,
+    "calculated_distance": 0.32099321138456943
+  },
+  "65": {
+    "empirical_density": 7.079301255340442e-06,
+    "calculated_density": 3.330864651003802e-06,
+    "compare_empirical_density": -8.228992920698744,
+    "compare_calculated_density": -8.228996669135348,
+    "calculated_distance": 0.31771059902858706
+  },
+  "66": {
+    "empirical_density": 7.23853385490836e-06,
+    "calculated_density": 3.2731070912043023e-06,
+    "compare_empirical_density": -8.549992761466147,
+    "compare_calculated_density": -8.549996726892909,
+    "calculated_distance": 0.3160181972683414
+  },
+  "67": {
+    "empirical_density": 7.346792030897657e-06,
+    "calculated_density": 3.4110381354830015e-06,
+    "compare_empirical_density": -8.794992653207968,
+    "compare_calculated_density": -8.794996588961865,
+    "calculated_distance": 0.3146090613923153
+  },
+  "68": {
+    "empirical_density": 7.450522671003798e-06,
+    "calculated_density": 3.4591991787971504e-06,
+    "compare_empirical_density": -9.065992549477329,
+    "compare_calculated_density": -9.065996540800821,
+    "calculated_distance": 0.31290146860155305
+  },
+  "69": {
+    "empirical_density": 7.525144605151991e-06,
+    "calculated_density": 3.686125119662801e-06,
+    "compare_empirical_density": -9.320992474855395,
+    "compare_calculated_density": -9.32099631387488,
+    "calculated_distance": 0.31105322384977824
+  },
+  "70": {
+    "empirical_density": 7.708036296943647e-06,
+    "calculated_density": 3.775712987360293e-06,
+    "compare_empirical_density": -6.964992291963703,
+    "compare_calculated_density": -6.964996224287012,
+    "calculated_distance": 0.34553454258610156
+  },
+  "71": {
+    "empirical_density": 7.79387417225693e-06,
+    "calculated_density": 4.0877877191606365e-06,
+    "compare_empirical_density": -9.839992206125828,
+    "compare_calculated_density": -9.83999591221228,
+    "calculated_distance": 0.30907937362889376
+  },
+  "72": {
+    "empirical_density": 1.1442744100891841e-05,
+    "calculated_density": 4.735166727789826e-06,
+    "compare_empirical_density": -13.309988557255899,
+    "compare_calculated_density": -13.309995264833272,
+    "calculated_distance": 0.2813379287532792
+  },
+  "73": {
+    "empirical_density": 1.4169708996891042e-05,
+    "calculated_density": 5.399766136330869e-06,
+    "compare_empirical_density": -16.653985830291003,
+    "compare_calculated_density": -16.653994600233865,
+    "calculated_distance": 0.26227768201185087
+  },
+  "74": {
+    "empirical_density": 1.7838161705846085e-05,
+    "calculated_density": 6.104912940184096e-06,
+    "compare_empirical_density": -19.249982161838293,
+    "compare_calculated_density": -19.24999389508706,
+    "calculated_distance": 0.2512384470443243
+  },
+  "75": {
+    "empirical_density": 1.8067833859663195e-05,
+    "calculated_density": 6.690119050642203e-06,
+    "compare_empirical_density": -21.01998193216614,
+    "compare_calculated_density": -21.01999330988095,
+    "calculated_distance": 0.24502144961747044
+  },
+  "76": {
+    "empirical_density": 2.06709454877364e-05,
+    "calculated_density": 7.172576903489526e-06,
+    "compare_empirical_density": -22.60997932905451,
+    "compare_calculated_density": -22.609992827423095,
+    "calculated_distance": 0.2408476924034146
+  },
+  "77": {
+    "empirical_density": 1.865098960298421e-05,
+    "calculated_density": 7.868386238758963e-06,
+    "compare_empirical_density": -22.649981349010396,
+    "compare_calculated_density": -22.64999213161376,
+    "calculated_distance": 0.24154100589767583
+  },
+  "78": {
+    "empirical_density": 1.892859502422238e-05,
+    "calculated_density": 8.398464407667116e-06,
+    "compare_empirical_density": -21.459981071404975,
+    "compare_calculated_density": -21.45999160153559,
+    "calculated_distance": 0.24713971036828397
+  },
+  "79": {
+    "empirical_density": 1.9111842741202232e-05,
+    "calculated_density": 8.925984407889077e-06,
+    "compare_empirical_density": -19.28198088815726,
+    "compare_calculated_density": -19.281991074015593,
+    "calculated_distance": 0.2569388687090443
+  },
+  "80": {
+    "empirical_density": 1.4188840015468126e-05,
+    "calculated_density": 9.577062858388362e-06,
+    "compare_empirical_density": -13.533585811159984,
+    "compare_calculated_density": -13.533590422937142,
+    "calculated_distance": 0.2908807547892515
+  },
+  "81": {
+    "empirical_density": 7.113707351020653e-06,
+    "calculated_density": 1.2852363576765733e-05,
+    "compare_empirical_density": -11.849992886292648,
+    "compare_calculated_density": -11.849987147636423,
+    "calculated_distance": 0.30595580198710504
+  },
+  "82": {
+    "empirical_density": 8.481714045432281e-06,
+    "calculated_density": 1.3543751577914703e-05,
+    "compare_empirical_density": -11.341991518285955,
+    "compare_calculated_density": -11.341986456248422,
+    "calculated_distance": 0.31187678155134857
+  },
+  "83": {
+    "empirical_density": 1.218027117415381e-05,
+    "calculated_density": 1.7061169311657486e-05,
+    "compare_empirical_density": -9.806987819728826,
+    "compare_calculated_density": -9.80698293883069,
+    "calculated_distance": 0.3283014399126769
+  },
+  "84": {
+    "empirical_density": 7.274394905862252e-06,
+    "calculated_density": 2.0279459293526063e-05,
+    "compare_empirical_density": -9.319992725605095,
+    "compare_calculated_density": -9.319979720540706,
+    "calculated_distance": 0.33393335363016735
+  },
+  "85": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": 2.4474820907001785e-05,
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "86": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": 3.067048382500066e-05,
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": -0.009699329516175,
+    "calculated_distance": 3.358636879999384
+  },
+  "87": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.5828687343315032
+  },
+  "88": {
+    "empirical_density": 5.428807597635682e-06,
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": -5.499994571192403,
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.4086312639618288
+  },
+  "89": {
+    "empirical_density": 7.308586877430889e-06,
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": -10.069992691413123,
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.3345146456101519
+  },
+  "90": {
+    "empirical_density": 9.498459516628476e-06,
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": -11.719990501540485,
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.3203516049318033
+  },
+  "91": {
+    "empirical_density": 9.457433727774166e-06,
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": -15.36999054256627,
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.29224798741470337
+  },
+  "92": {
+    "empirical_density": 1.0602955836811908e-05,
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": -18.949989397044163,
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.27526849323633734
+  },
+  "93": {
+    "empirical_density": 1.0557123222235578e-05,
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": -20.449989442876777,
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.26797936416524487
+  },
+  "94": {
+    "empirical_density": 1.0868936988293168e-05,
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": -19.81598913106301,
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.27344770663642154
+  },
+  "95": {
+    "empirical_density": 1.0824392164570655e-05,
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": -13.689989175607835,
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.30889955519552037
+  },
+  "96": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.31195853765049425
+  },
+  "97": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.30268618586056556
+  },
+  "98": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.30221447790638045
+  },
+  "99": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "100": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "101": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "102": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "103": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "104": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": 0.28822854226244315
+  },
+  "105": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "106": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "107": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "108": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "109": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "110": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "111": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "112": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "113": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "114": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "115": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "116": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "117": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  },
+  "118": {
+    "empirical_density": "Could not calculate empirical density",
+    "calculated_density": "Could not calculate calculated density",
+    "compare_empirical_density": "Could not calculate compare empirical density",
+    "compare_calculated_density": "Could not calculate compare calculated density",
+    "calculated_distance": "Could not calculate distance"
+  }
+}

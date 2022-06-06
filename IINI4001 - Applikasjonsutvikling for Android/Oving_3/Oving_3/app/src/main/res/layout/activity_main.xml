@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="186dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Navn:"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/nameText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Navn"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:text="Navn" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="186dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fødselsår:"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/dateText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Date"
+                    android:ems="10"
+                    android:inputType="date"
+                    tools:text="@sample/tools:date/ddmmyy" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/addBtn"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:text="Legg til" />
+
+                <Space
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/editBtn"
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
+                    android:text="Endre" />
+
+                <Space
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/vennerList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

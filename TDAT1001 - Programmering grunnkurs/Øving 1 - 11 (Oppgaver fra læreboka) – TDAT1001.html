@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="nb-NO"><head>
+  <title>Øving 1 - 11  (Oppgaver fra læreboka) – TDAT1001 ...</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="© 1997-2018 Blackboard Inc. Med enerett. Amerikanske patentnr. 7,493,396 and 7,558,853. I påvente av ytterligere patenter.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+<script src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/nr-1071.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="https://ntnu.blackboard.com/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/shared.css" id="css_0">
+     <link rel="stylesheet" type="text/css" href="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/theme.css" id="css_1">
+     <link rel="stylesheet" type="text/css" href="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/app_nav.css" id="css_2">
+          <style type="text/css" id="courseMenuCustomCSS">
+
+.noteditmode .listCm .courseMenu a:hover span, 
+.noteditmode .listCm .courseMenu a:focus span {
+	color:#00509e!important;
+}
+
+
+#courseMenuPalette div.navPaletteContent ul li a,
+#courseMenuPalette h3 a,
+#previewCourseMenu h3 a,
+.navPaletteContent h3 a.submenuLink:before,
+.navPaletteContent h3 a.submenuLink_active:before,
+#courseMenuPalette div.navPaletteContent ul li a span,
+#courseMenuPalette .navPaletteContent .subhead
+{
+  color: #00509e;
+  text-shadow: none;
+}
+
+#courseMenuPalette ul.courseMenu li.divider hr
+{
+  background-color: #00509e;
+}
+
+#courseMenuPalette ul.courseMenu li h4
+{
+  color: #00509e;
+}
+
+#courseMenuPalette h4.treehead
+{
+  color: #00509e;
+}
+
+#courseMenuPalette div.navPaletteContent
+{
+  background-color: #FAFAFA;
+}
+
+/*Active course menu view bubble stem*/
+#courseMenuPalette .actionBarMicro .active > a:after {
+ 	border-bottom-color: #FAFAFA;
+}
+
+
+</style>
+      <style type="text/css">.topGlobalLinks a.home{background-image:url(/images/console/icons/home_0.gif)}.bottom-buttons-home a{background-image:url(/images/console/icons/home_0.gif);background-repeat:no-repeat;background-position:50% 0}.topGlobalLinks a.help{background-image:url(/images/console/icons/help_0.gif)}.bottom-buttons-help a{background-image:url(/images/console/icons/help_0.gif);background-repeat:no-repeat;background-position:50% 0}.topGlobalLinks a.logout{background-image:url(/images/console/icons/logout_0.gif)}.global-nav-bar .logout-link,.global-nav-bar .logout-link:hover,.global-nav-bar .logout-link:focus{background-image:url(/images/console/icons/logout_0.gif);background-repeat:no-repeat;background-position:50% 0}</style>
+       <link rel="stylesheet" type="text/css" media="print" href="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/print.css">
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/i18n.js"></script>
+      <script language="javascript" type="text/javascript">
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'Oppgi en kvalifisert e-postadresse (for eksempel info@blackboard.com).';
+    JS_RESOURCES['validation.radio.required'] = 'Foreta et valg for å fortsette.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'De følgende spørsmålene kan være mangelfulle:\n{0}\nKlikk på Avbryt for å gå tilbake til spørreundersøkelsen. Klikk på Ok for å lagre det mangelfulle svaret.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Søkebegreper';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Må ikke inneholde mer enn {1} tegn: {0}.\nReduser lengden på innlegget med {2} tegn.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'De følgende spørsmålene kan være mangelfulle:\n{0}\nKlikk på Avbryt for å gå tilbake til prøven. Klikk på Ok for å lagre det mangelfulle svaret.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Flervalgsboks bør inneholde minst {0} elementer.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'Du må oppgi en verdi for {0}\nnår {1}-feltet ikke er tomt';
+    JS_RESOURCES['warning.email'] = 'E-postadresse er et anbefalt felt. Brukere kan ikke bruke deler av systemet uten å ha oppgitt en e-postadresse.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Må ikke inneholde mer enn {0} tegn.\nReduser lengden på innlegget med ett tegn.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Flervalgsboks bør ikke inneholde mer enn {0} elementer.';
+    JS_RESOURCES['validation.number'] = 'Du må angi en gyldig numerisk verdi: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Slett: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Vis hjelpetekst';
+    JS_RESOURCES['validation.date.required'] = 'Du må oppgi en fullstendig datoverdi: {0}.';
+    JS_RESOURCES['validation.password'] = 'Passord kan ikke være tom eller bare inneholde mellomrom.';
+    JS_RESOURCES['validation.mismatch'] = 'De angitte verdiene samsvarer ikke: {0}.\nBekreft: {0}.';
+    JS_RESOURCES['validation.percent'] = 'Du må oppgi en gyldig prosentverdi mellom 0 og 100.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Må ikke inneholde mer enn {0} tegn.\nReduser lengden på innlegget med {1} tegn.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' inndatafelt';
+    JS_RESOURCES['validation.invalid_value'] = 'Ugyldig numerisk verdi angitt: {0}.';
+    JS_RESOURCES['validation.required'] = 'Du må oppgi en verdi: {0}.';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'Du valgte tilpasninger, men valgte ikke noe tilpasningsinnhold som skal kopieres.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Angi en verdi i søketekstfeltet';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" er ikke tillatt i begynnelsen av en rolle-ID.';
+    JS_RESOURCES['validation.date_past'] = 'Sluttdatoen kan ikke være tidligere enn startdatoen.';
+    JS_RESOURCES['confirm.delete_item_value'] = 'Elementet {0} vil bli slettet. Fortsett?';
+    JS_RESOURCES['validation.invalid_chars'] = 'Inneholder ugyldige tegn: {0}.\nSlett disse tegnene: {1}';
+    JS_RESOURCES['hide.helptext'] = 'Skjul hjelpetekst';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Mindre enn {0}';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Angi et brukernavn og et passord.';
+    JS_RESOURCES['validation.date_past.confirm'] = 'Angitte tidspunkt er bak i tid.\nFortsette med dette tidspunktet?';
+    JS_RESOURCES['validation.negative'] = 'Du må angi en gyldig positiv verdi: {0}.';
+    JS_RESOURCES['validation.url'] = 'Du må oppgi en gyldig URL-adresse (for eksempel, http://www.myschool.edu).';
+    JS_RESOURCES['validate.range.overlap'] = 'vilkår ({0}) overlapper vilkår ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Mellom {0} og {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Slett: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'Informasjonen for tilknyttede elementer kan ha blitt oppdatert.\nKlikk på \'OK\' for å fornye listen eller klikk på \'Avbryt\' for å beholde gjeldende side.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'Alternativet for tilgangskode for påmelding er i strid med valget av {instructor}-styrt påmelding.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Merk av for å velge alle elementer';
+    JS_RESOURCES['validation.option.required'] = 'Du må velge minst ett alternativ fra listen.';
+    JS_RESOURCES['active.filter.changed.alert'] = 'vilkår inneholder nå';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Angi et navn for å kunne lagre som et gjenbrukbart objekt.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Oppgi gyldig tall i stedet for {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Emne-ID inneholder ugyldige tegn eller multibyte-tegn.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'De følgende spørsmålene kan være mangelfulle:\n{0}\nKlikk på Avbryt for å gå tilbake til prøven. Klikk på Ok for å sende vurderingen.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Advarsel: Velg et av alternativene {instructor}-styrt eller egenpåmelding.';
+    JS_RESOURCES['validation.date_equal'] = 'Startdatoen kan ikke være lik sluttdatoen.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = '{0} kan ikke brukes uten en tilsvarende {1}-verdi.';
+    JS_RESOURCES['validation.time.required'] = 'Du må oppgi en fullstendig tidsverdi: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'Du må angi en gyldig numerisk verdi (heltall): {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Må ikke inneholde mer enn 255 tegn.';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'Det valgte alternativet for påmelding via e-post kommer i konflikt med valget egenpåmelding.';
+    JS_RESOURCES['validate.range.morethen.str'] = 'Mer enn {0}';
+    JS_RESOURCES['invalid_char.space'] = 'mellomrom';
+    JS_RESOURCES['notification.submit'] = 'Handling allerede sendt.\nVent til handlingen er fullført.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'Du må velge smarttekstformat eller HTML-format for å vise ligningene riktig i dette dokumentet.\nKlikk på \'OK\' for å lagre filen i vanlig tekstformat eller klikk på \'Avbryt\' for å velge et nytt format.';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'Du må oppgi en gyldig prosentverdi mellom -100 og 100.';
+    JS_RESOURCES['invalid_char.comma'] = 'semikolon';
+    JS_RESOURCES['confirm.remove_item'] = 'Handlingen er endelig og kan ikke angres. Fortsett?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Fjern merking for alle elementer';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Må ikke inneholde mer enn {1} tegn: {0}.\nReduser lengden på innlegget med ett tegn.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Angi en plassering for gjenbrukbart objekt.';
+    JS_RESOURCES['validation.minimum_length'] = 'Du må oppgi minst {0} tegn: {1}.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'De følgende spørsmålene kan være mangelfulle:\n{0}\nKlikk på Avbryt for å gå tilbake til spørreundersøkelsen. Klikk på Ok for å sende vurderingen.';
+    JS_RESOURCES['validation.image_type'] = 'Ukjent bildetype: {0}. Det kan hende at bildet ikke vises skikkelig.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Mellomrom';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language="javascript" type="text/javascript">
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd.MM.yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\u00a0[0-9]{3})*)|[0-9]*)(\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'MAN TIR ONS TOR FRE LØR SØN';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\u00a0[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{ \'&#8212;\' d MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'Januar Februar Mars April Mai Juni Juli August September Oktober November Desember';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Velkommen {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb Mar Apr Mai Jun Jul Aug Sep Okt Nov Des';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ' ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd d. M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Man Tir Ons Tor Fre Lør Søn';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd d. MMM yyyy';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Mandag Tirsdag Onsdag Torsdag Fredag Lørdag Søndag';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD.MM.YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ' ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd d. M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language="javascript" type="text/javascript">
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd.MM.yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\u00a0[0-9]{3})*)|[0-9]*)(\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'MAN TIR ONS TOR FRE LØR SØN';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\u00a0[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{ \'&#8212;\' d MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'Januar Februar Mars April Mai Juni Juli August September Oktober November Desember';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Velkommen {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb Mar Apr Mai Jun Jul Aug Sep Okt Nov Des';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ' ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd d. M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Man Tir Ons Tor Fre Lør Søn';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd d. MMM yyyy';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Mandag Tirsdag Onsdag Torsdag Fredag Lørdag Søndag';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD.MM.YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ' ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd d. M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/cdn.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/34048C95CFE348DA126451CC6950A60A.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/UserDataDWRFacade.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/MashupDWRFacade.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/titlebartagutils.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/CourseMenuDWRFacade.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/UserPageInstructionsSettingDWRFacade.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/engine.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/breadcrumbs.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/tree.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/coursemenu.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/util.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/424C6C34B341DF007C4818D3A91099F0.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/UserDWRFacade.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/mybb.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/welcomeOverlay.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/ToolActivityService.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/tool_service.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/social.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/ProfileProviderService.js"></script>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/41FDAE89440BEF3D44EEB663B5F31528.js"></script>
+    </head>
+  <body id="testid">
+  
+<h1 class="hideoff hideFromQuickLinks">Åpne hurtiglenker</h1><div id="quick_links_wrap" style="top: 84px;"><a id="quick_links_lightbox_link" href="#" onclick="quickLinks.lightboxHelper.toggleLightbox(); return false;" role="button" aria-haspopup="true" tabindex="1" title="Åpne hurtiglenker">Hurtiglenker</a></div><div id="quickLinksLightboxDiv" class="hideoff" aria-hidden="true" style="display:none"><div class="ax-content"><div class="content-lite"><div id="quick_links_landmarks_section"><h2 class="hideFromQuickLinks">Landemerker </h2><ul class="shortcut-list" id="quick_links_landmark_list"></ul></div><div id="quick_links_headings_section"><h2 class="hideFromQuickLinks">Innholdsfremstilling</h2><ul class="shortcut-list" id="quick_links_heading_list"></ul></div></div><div id="quick_links_hotkeys_section" class="legend"><h2 class="hideFromQuickLinks">Snarveier for tastatur</h2><ul class="keycombos" id="quick_links_hotkey_list"></ul></div></div></div><h1 class="hideoff hideFromQuickLinks"></h1><div class="global-nav-bar-wrap"><div class="global-nav-bar-wrap-mobile-nav"><button class="hamburger hamburger--squeeze" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button></div><div class="global-nav-bar logout"><a id="topframe.logout.label" href="https://ntnu.blackboard.com/webapps/login/?action=logout" target="_top" class="nav-link logout-link" title="Logg av"> Logg av</a></div><div id="global-nav" class="global-nav-bar" role="navigation" data-preview="false"><div class="hideoff">Global meny</div><a id="global-nav-link" class="nav-link u_floatThis-right" href="#global-nav-flyout" aria-haspopup="true" tabindex="1" accesskey="m" role="navigation" title="Åpne global navigasjonsmeny"><img src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/default_profile_avatar.png" alt="" id="global-avatar" datatooltitle="Avatar-bilde for bruker" class="global-top-avatar"> Zaim Ul-Abrar Imran<span id="badgeTotal" style="visibility: visible;" title=""><span class="hideoff" id="badgeAXLabel">Aktivitetsoppdateringer</span><span class="badge" id="badgeTotalCount" title="">13</span></span><img src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/arrowDown-topnav.png" alt="Vis global navigasjon" id="global-toggle-img" class="global-toggle"></a><div id="global-nav-flyout" class="flyout-menu" style="display: none;" role="application"><ul id="bottomButtons" class="bottom-buttons"><li class="bottom-buttons-home"><a id="topframe.home.label" href="http://ntnu.blackboard.com/" target="_blank" class="home" title="Hjem" role="menuitem"> Hjem</a></li><li class="bottom-buttons-help"><a id="topframe.help.label" href="#" onclick="globalNavigation.openHelpWindow('https://en-us.help.blackboard.com/');" class="help" title="Hjelp" role="menuitem"> Hjelp</a></li></ul></div></div></div>
+<!-- global_nav.jsp -->
+
+<div id="globalNavPageNavArea">
+    <table class="bouncer" summary="Topprammetabell" role="presentation">
+      <tbody><tr>
+        <td>
+          <div class="topTabs bgBanner" id="topTabs">
+  
+            <div class="brandingImgWrap">
+              <a href="http://ntnu.blackboard.com/" target="_blank" title="Blackboard Learn at NTNU">
+                <img src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/logo_ntnu_u-slagord_neg_140.png" alt="Blackboard Learn at NTNU" title="Blackboard Learn at NTNU" class="bannerImage">
+</a>
+            </div>
+  
+            <div class="tabWrapper-left">
+              <h2 class="hideoff" id="anonymous_element_1">Topprammefaner</h2>
+              <table class="appTabs transparent" id="appTabList" summary="Fanelistetabell" role="presentation">
+                <tbody><tr>
+                 <td id="Hjem" class="active">
+                      <a href="https://ntnu.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_70_1" target="_top"><span>Hjem</span>
+                        <span class="hideoff"> Fane 1 for 5&nbsp;(aktiv fane)</span>
+                      </a>
+                    </td>
+                  <td id="Varsler">
+                      <a href="https://ntnu.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_94_1" target="_top"><span>Varsler</span>
+                        <span class="hideoff"> Fane 2 for 5</span>
+                      </a>
+                    </td>
+                  <td id="O365">
+                      <a href="https://ntnu.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_91_1" target="_top"><span>O365</span>
+                        <span class="hideoff"> Fane 3 for 5</span>
+                      </a>
+                    </td>
+                  <td id="hjelpefane_student"><a href="https://innsida.ntnu.no/bb-student" target="_blank"><span>Hjelp</span></a></td>
+                  <td id="Insperas"><a href="https://feide.inspera.no/feide/endpoint/login?loginPath=student&amp;languageId=1&amp;originatingMarketplaceId=1342515" target="_blank"><span>Inspera</span></a></td>
+                  </tr>
+              </tbody></table>
+              <div class="clearfloats"></div>
+            </div>
+            </div>
+        </td>
+      </tr>
+    </tbody></table>
+  </div>
+
+<div id="globalNavPageContentArea" style="height: 479px; overflow: visible;">
+
+<h2 class="hideoff" id="anonymous_element_2">
+ Gjeldende plassering
+</h2>
+
+<div id="breadcrumbs" class="breadcrumbs clearfix ">
+ <div class="breadcrumb-controls clearfix" id="breadcrumb_controls_id">
+
+
+
+
+
+<div id="helpTextToggle" class="helpLink hidden">
+  
+</div>
+ <input name="showHelperSetting" id="showHelperSetting" value="" type="hidden">
+ </div>
+
+ <div class="path  noToggle" role="navigation" id="anonymous_element_9">
+ <ol class="clearfix">
+    	<li class="root coursePath"> <a href="https://ntnu.blackboard.com/webapps/blackboard/execute/courseMain?course_id=_9704_1" title="TDAT1001 Programmering grunnkurs (2018 HØST)">                  TDAT1001 Programmering grunnkurs (2018 HØST)
+              </a>      <div id="arrowContext_1" class="courseArrow" onclick="page.ContextMenu.changeArrowInBreadcrumb(1, event );">
+<span class="contextMenuContainer" style=" display: inline;" bb:menugeneratorurl="/webapps/blackboard/execute/getCrossCourseMenuHTML?course_id=_9704_1" bb:navitem="" bb:contextparameters="" bb:menuorder="" bb:overwritenavitems="" bb:beforeshowfunc="">
+   
+  <a id="cmlink_dd1edd63800a4d37ae3c1363fcbc0b60" onfocus="page.ContextMenu.LI(event, 'cmdiv_dd1edd63800a4d37ae3c1363fcbc0b60',false);" onmouseover="page.ContextMenu.LI(event, 'cmdiv_dd1edd63800a4d37ae3c1363fcbc0b60',false);" class="cmimg editmode jsInit" href="#contextMenu" title="Emne til emne-navigering"> <img src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/cmlink_generic.gif" alt="Emne til emne-navigering" onload="page.ContextMenu.LI(event, 'cmdiv_dd1edd63800a4d37ae3c1363fcbc0b60',false);"></a>
+  
+</span>
+</div>    </li>
+   	<li> <a href="https://ntnu.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_9704_1&amp;content_id=_397191_1&amp;mode=reset" title="Innleveringer">                  Innleveringer
+              </a>          </li>
+   	<li class="placeholder">                   Øving 1 - 11  (Oppgaver fra læreboka)
+                        </li>
+  </ol>
+ </div>
+
+</div>
+
+<div class="locationPane">
+ <nav role="navigation" aria-label="Course Menu" id="navigationPane" class="navigationPane " style="height: 1292px;">
+ 
+
+ <div id="menuWrap" class="menuWrap">
+  <div id="puller">
+  <a id="menuPuller" class="clickpuller" title="Skjul Emne meny" href="#">
+   <img id="expander" alt="Skjul Emne meny" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/spacer.gif">
+  </a>
+ </div>
+<div class="menuWrap-inner">
+  <input name="blackboard.platform.security.NonceUtil.nonce" value="561b95f2-0d7c-4f54-9b62-fbc5911c4c13" type="hidden"><div id="courseMenuPalette" class="navPalette listCm navPaletteExpCol"><div class="actionBarMicro clearfix"><h2 class="hideoff" id="anonymous_element_3">Alternativer for menyadministrasjon</h2><ul class="nav clearfix u_floatThis-right"><li id="refreshMenuLink" class="secondaryButton "><a href="#" title="Oppdater"><span><img src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/small_refresh.gif" alt="Oppdater"></span></a></li><li id="courseMapButton" class="secondaryButton "><a href="#" title="Vis emnemenyen i et vindu"><span><img src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/small_new_window.gif" alt="Vis emnemenyen i et vindu"></span></a></li></ul></div><div class="navPaletteContent"><h2 class="hideoff" tabindex="-1" id="anonymous_element_4">Emnemeny:</h2><div id="courseMenuPalette_paletteTitleHeading"><div class="navPaletteTitle"><h3 aria-expanded="true" id="anonymous_element_5"><a href="#" class="comboLink" title="Skjul TDAT1001 Programmering grunnkurs (2018 HØST)" id="courseMenu_link">TDAT1001 Programmering grunnkurs (2018 HØST)</a></h3><h3 id="anonymous_element_6"><a href="https://ntnu.blackboard.com/webapps/blackboard/execute/courseMain?course_id=_9704_1" target="" class="submenuLink" id="courseMenu_combo" title="Gå til startsiden"><img src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/generic_dbl_arrow_right.gif" alt="Emneinnleggsside"></a></h3></div></div><ul id="courseMenuPalette_contents" class="courseMenu"><li id="paletteItem:_184305_1" class="clearfix "><a href="https://ntnu.blackboard.com/webapps/blackboard/content/launchLink.jsp?course_id=_9704_1&amp;toc_id=_184305_1&amp;mode=view&amp;mode=reset" target="_self"><span title="Emnets startside">Emnets startside</span></a></li><li id="paletteItem:_184306_1" class="clearfix divider"><hr></li><li id="paletteItem:_184307_1" class="clearfix subhead"><h3 id="anonymous_element_7"><span title="Emneinnhold">Emneinnhold</span></h3></li><li id="paletteItem:_184248_1" class="clearfix "><a href="https://ntnu.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_9704_1&amp;content_id=_346754_1&amp;mode=reset" target="_self"><span title="Informasjon om emnet">Informasjon om emnet</span></a></li><li id="paletteItem:_184249_1" class="clearfix "><a href="https://ntnu.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_9704_1&amp;content_id=_346755_1&amp;mode=reset" target="_self"><span title="Arbeidskrav">Arbeidskrav</span></a></li><li id="paletteItem:_184250_1" class="clearfix "><a href="https://ntnu.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_9704_1&amp;content_id=_346756_1&amp;mode=reset" target="_self"><span title="Kilder og pensum">Kilder og pensum</span></a></li><li id="paletteItem:_256059_1" class="clearfix "><a href="https://ntnu.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_9704_1&amp;content_id=_397190_1&amp;mode=reset" target="_self"><span title="Undervisningsmateriell">Undervisningsmateriell</span></a></li><li id="paletteItem:_184252_1" class="clearfix "><a href="https://ntnu.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_9704_1&amp;content_id=_346758_1&amp;mode=reset" target="_self"><span title="Tidl. eksamensoppgaver">Tidl. eksamensoppgaver</span></a></li><li id="paletteItem:_256060_1" class="clearfix "><a href="https://ntnu.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_9704_1&amp;content_id=_397191_1&amp;mode=reset" target="_self"><span title="Innleveringer">Innleveringer</span></a></li><li id="paletteItem:_256061_1" class="clearfix "><a href="https://ntnu.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_9704_1&amp;content_id=_397192_1&amp;mode=reset" target="_self"><span title="Ressurser">Ressurser</span></a></li></ul></div></div>
+  </div>
+ </div>
+ </nav>
+ <div id="contentPanel" class="contentPane  " style="height: 1292px;">
+<div class="shadow">
+       <div id="editmodeWrapper"> 
+ 
+  <div id="content" class="contentBox ">
+   
+<div id="pageTitleDiv" class="pageTitle clearfix ">
+
+  
+<div id="pageTitleBar" class="pageTitleIcon" tabindex="0">
+  <img src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/blankpage_on.svg" alt="" id="titleicon"><h1 id="pageTitleHeader" tabindex="-1"><span id="pageTitleText">
+  <span style="color: #000000;">Øving 1 - 11  (Oppgaver fra læreboka)</span>
+     </span></h1>
+        <span id="_titlebarExtraContent" class="titleButtons"></span>
+</div>
+
+
+
+</div>
+
+      <div class="container clearfix" id="containerdiv">
+    <h2 class="hideoff" id="anonymous_element_8">Innhold</h2>
+    <script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/achievement.js"></script><script src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/version_pinned_scriptaculous.js"></script><script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/builder.js"></script><script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/effects.js"></script><script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/dragdrop.js"></script><script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/controls.js"></script><link rel="stylesheet" href="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/achievements.css" type="text/css" media="screen"><script type="text/javascript">
+new Ajax.Request('/webapps/achievements/checkAchievements.form', {
+method:'get',
+asynchronous:true,
+parameters: {courseId: '_9704_1', type: 1 },
+onSuccess: function(response) {
+var jsonArray = response.responseJSON;
+handleAchievements(jsonArray);
+},
+onFailure: function() { alert('Something went wrong...'); }
+});
+</script><div class="vtbegenerated"> 
+ <p><span style="font-size: medium;"><strong>Øving 1 - 11 er oppgaver hentet fra læreboka: Else Lervik og Vegard B. Havdal: "Programmering i Java", siste utgave <br></strong></span></p> 
+ <ul> 
+  <li><span style="font-size: medium;">Øving 1: Oppg. 2.13.1, 2.13.2 og 2.13.3&nbsp;</span></li> 
+  <li><span style="font-size: medium;">Øving 2: Oppg. 3.12.3 og 3.12.4</span></li> 
+  <li><span style="font-size: medium;">Øving 3: Oppg. 4.14.1 og 4.14.5</span><em><span style="font-size: medium;"><br><br></span></em></li> 
+  <li><span style="font-size: medium;">Øving 4: Oppg. 5.9.2 og 5.9.3</span></li> 
+  <li><span style="font-size: medium;">Øving 5: Oppg. 6.10.2 og 6.10.3</span></li> 
+  <li><span style="font-size: medium;">Øving 6 : Oppg. 7.8.1 og 7.8.3<br><br></span></li> 
+  <li><span style="font-size: medium;">Øving 7: Oppg. 9.11.2 og 10.9.1 (utsatt frist)</span></li> 
+  <li><span style="font-size: medium;">Øving 8: Oppg.8.16.1 og 8.16.3</span></li> 
+  <li><span style="font-size: medium;">Øving 9: Oppg. 11.10.1 <br><br></span></li> 
+  <li><span style="font-size: medium;">Øving 10: Oppg. 12.10.1<br></span><span style="font-size: medium;"></span></li> 
+  <li><span style="font-size: medium;">Øving 11: Oppg. 16.13.3</span><span style="font-size: medium;"></span></li> 
+ </ul> 
+ <br> 
+ <p>Det vil bli gitt 15 øvinger, hvorav <strong>11</strong> må være 
+godkjent for å gå opp til eksamen. De 11 øvingene som godkjennes må 
+dekke et bredt spekter av øvingene etter følgende krav: Obligatoriske 
+enkeltøvinger:<strong> 10, 11 og 15</strong>. I tillegg 2 øvinger i hver
+ av følgende grupper: (1-3), (4-6), (7-9) og (12-14). Obligatorisk 
+oppmøte på lab for å få godkjent øvingene.</p> 
+ <p> <title>Informasjon om emnet – TDAT1001 Programmering grunnkurs ...</title> </p> 
+ <br> 
+</div>
+   </div>
+   
+     </div>
+   </div> 
+   </div>
+   </div>  
+</div></div>
+
+<!-- START HACK : esg-addlinkhack -->
+<script type="text/javascript" src="Filer_for_%C3%98ving%201%20-%2011%20(Oppgaver%20fra%20l%C3%A6reboka)%20%E2%80%93%20TDAT1001/addLinkHack.js"></script>
+<!-- END HACK : esg-addlinkhack -->
+
+
+
+<!-- START HACK : ntnu_context_menu -->
+<!-- This snippet binds a function to the "dom:loaded" event.
+You can put your own javascript into the function, or replace
+the entire snippet. -->
+<script type="text/javascript">
+    Event.observe(document,"dom:loaded", function() {
+        
+var leftMenu = document.getElementById("menuWrap");
+
+        function hasClass(element, cls) {
+            return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+        }
+
+function whatClicked(evt) {
+if(hasClass(evt.target.parentElement, "cmimg")){
+    
+var linkId = evt.target.parentElement.id;
+var linkIdPrefix = "cmdiv_";
+linkId = linkId.substr(7);
+
+linkId = linkIdPrefix.concat(linkId);
+
+var contextMenuPositionFix = function(){
+var contextMenu = document.getElementById(linkId);
+if(typeof contextMenu !== undefined){
+    var bodyWidth = document.getElementById("contentPanel").offsetWidth;
+    var windowWidth = window.innerWidth;
+    var leftMenuWidth = 210;
+    
+    var contextMenuOffset = ((windowWidth - bodyWidth)/2) - leftMenuWidth;
+    
+    if(Math.sign(contextMenuOffset)){
+        contextMenu.style.left = "-"+contextMenuOffset+"px";
+    }
+        
+ //   contextMenu.style.position = "fixed";
+}
+}
+          setTimeout(contextMenuPositionFix, 50);
+
+);
+}
+
+//console.log(evt.target);
+}
+
+leftMenu.addEventListener("click", whatClicked, false);
+
+    
+
+
+    });
+</script>
+
+<!-- END HACK : ntnu_context_menu -->
+
+<!-- START HACK : ntnu_helptab-hack -->
+<script type="text/javascript">
+    Event.observe(document,"dom:loaded", function() {
+        var staffTab = document.getElementById("hjelpefane_ansatt");
+        if(staffTab != null){
+            staffTab.innerHTML = '<a href="https://innsida.ntnu.no/bb" target="_blank"><span>Hjelp</span></a>';
+        }
+        var studentTab = document.getElementById("hjelpefane_student");
+        if(studentTab != null){
+            studentTab.innerHTML = '<a href="https://innsida.ntnu.no/bb-student" target="_blank"><span>Hjelp</span></a>';
+        }
+    });
+</script>
+
+<!-- END HACK : ntnu_helptab-hack -->
+
+<!-- START HACK : ntnu_inspera-hack -->
+<script type="text/javascript">
+    Event.observe(document,"dom:loaded", function() {
+        var staffTab = document.getElementById("Insperaa");
+        if(staffTab != null){
+            staffTab.innerHTML = '<a href="https://feide.inspera.no/feide/endpoint/login?loginPath=admin&languageId=1&originatingMarketplaceId=1342515" target="_blank"><span>Inspera</span></a>';
+        }
+        var studentTab = document.getElementById("Insperas");
+        if(studentTab != null){
+            studentTab.innerHTML = '<a href="https://feide.inspera.no/feide/endpoint/login?loginPath=student&languageId=1&originatingMarketplaceId=1342515" target="_blank"><span>Inspera</span></a>';
+        }
+    });
+</script>
+
+<!-- END HACK : ntnu_inspera-hack -->
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Lukk');page.bundle.addKey('inlineconfirmation.refresh','Oppdater');page.bundle.addKey('hidden.link.close.menu','Slutt på meny. Klikk for å gå tilbake til det tilknyttede elementet.');page.bundle.addKey('hidden.link.close.form','Slutt på skjema. Klikk for å gå tilbake til det tilknyttede elementet.');page.bundle.addKey('lightbox.loading','Laster inn...');page.bundle.addKey('yt.stopped','Stoppet:');page.bundle.addKey('yt.playing','Spiller:');page.bundle.addKey('yt.cued','Satt i kø');page.bundle.addKey('yt.buffering','Bufrer:');page.bundle.addKey('yt.paused','Satt på pause:');page.bundle.addKey('yt.ended','Avsluttet:');page.bundle.addKey('yt.play','Spill av');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Demp');page.bundle.addKey('yt.unmute','Ikke demp');page.bundle.addKey('lightbox.overlay','{0} er åpnet som bildeviser som overlapper gjeldende side.');page.bundle.addKey('display.playerControls','Spillerkontroller:');page.bundle.addKey('display.videoPlayerControls','Videospillerkontroller:');page.bundle.addKey('display.play','Spill av');page.bundle.addKey('display.stop','Stopp');page.bundle.addKey('display.volumeUp','Volum opp');page.bundle.addKey('display.volumeDown','Volum ned');page.bundle.addKey('display.mute','Demp');page.bundle.addKey('display.videoStatus','Videostatus');page.bundle.addKey('display.closePlayerControls','Lukk spillerkontroller');page.bundle.addKey('display.embeddedVideoPlayer','Integrert videospiller');page.bundle.addKey('display.of','av');page.bundle.addKey('display.view.on.flickr','Vis bilde på Flickr');page.bundle.addKey('mashups.content.data.msg','Vi kan ikke vise eksternt innhold. Dette skjer hvis systemet oppdager en ugyldig URL-adresse. Fjern elementet med eksternt innhold og prøv å løse dette problemet på nytt.');page.bundle.addKey('contextmenu.frame.title','Menyramme');page.bundle.addKey('frameset.contentframe.title','Innhold');page.bundle.addKey('common.pair.paren','{0} ({1})');page.bundle.addKey('coursemenu.show','Vis Emne meny');page.bundle.addKey('coursemenu.hide','Skjul Emne meny');page.bundle.addKey('dynamictree.expand','Vis');page.bundle.addKey('dynamictree.collapse','Skjul');page.bundle.addKey('dynamictree.expand.folder','Vis {0} tremappen');page.bundle.addKey('dynamictree.collapse.folder','Skjul {0} tremappen');page.bundle.addKey('dragdrop.accessible.error.chooseOption','Velg først et element.');page.bundle.addKey('dragdrop.accessible.empty','Ingen elementer er tilgjengelig for omplassering.');page.bundle.addKey('dragdrop.accessible.complete','Elementene er omplassert.');page.bundle.addKey('dragdrop.accessible.complete.nochange','Ingen sorteringsendringer er foretatt.');page.bundle.addKey('closeStr','Lukk');page.bundle.addKey('moreOptionsStr','Klikk for å vise alternativer');page.bundle.addKey('hiddenStr','Denne lenken er skjult for studenter');page.bundle.addKey('emptyStr','Denne lenken mangler innhold');page.bundle.addKey('entryPointChangeConfirmStr','Startpunktet blir endret til neste tilgjengelige innhold');page.bundle.addKey('subheaderColonStr','Underoverskrift: {0}');page.bundle.addKey('confirmQuickEnrollStr','Du får rollen: {0}. Fortsett?');page.bundle.addKey('enterSearchKeyStr','Angi søkevilkår.');page.bundle.addKey('courseWelcomePageLbTitle','Hurtigoppsett');page.bundle.addKey('expandCollapse.expand.section.nocolon','Vis');page.bundle.addKey('expandCollapse.collapse.section.nocolon','Skjul');page.bundle.addKey('expandCollapse.expand.section.param','Vis {0}');page.bundle.addKey('expandCollapse.collapse.section.param','Skjul {0}');page.bundle.addKey('tool.activity.description','aktivitetsoppdateringer');page.bundle.addKey('accessDeniedMsg','Tilgang avvist');page.bundle.addKey('breadcrumbs.expand','Klikk for å utvide søkebanene');</script>
+  <script type="text/javascript">
+   var course_id = "_9704_1";
+   var courseTitle = "TDAT1001 Programmering grunnkurs (2018 HØST)";
+   var confirmDeleteMenuItemMsg = "Er du sikker på at du vil slette dette elementet?";
+   var confirmQuickUnenrollMsg = "All brukerdata som er opprettet med rask påmelding til dette emnet blir slettet. Fortsett?";
+   var confirmQuickEnrollMsg = "Du får rollen: Underviser. Fortsett?";
+   var inNewWindow = false;
+   var theCourseMenu;
+ </script>
+ 
+  <script type="text/javascript">globalNavigation.init(); Event.observe(window, 'resize', globalNavigation.onResize);</script>
+  <script type="text/javascript">
+    page.bundle.addKey('globalnav.menu.expand','Vis\x20global\x20navigasjon');
+    page.bundle.addKey('globalnav.menu.collapse','Skjul\x20global\x20navigasjon');
+  </script>
+  
+  <script type="text/javascript">
+    page.bundle.addKey('quick_links.link.title','Naviger\x20til\x20element\x20\x7B1\x7D\x20av\x20type\x20\x7B2\x7D\x20i\x20\x7B0\x7D\x20ramme');
+    page.bundle.addKey('quick_links.lightbox_title','Hurtiglenker');
+    page.bundle.addKey('quick_links.link_title','\xC5pne\x20hurtiglenker');
+    page.bundle.addKey('quick_links.hotkey.shift','Shift');
+    page.bundle.addKey('quick_links.hotkey.control','Ctrl');
+    page.bundle.addKey('quick_links.hotkey.alt','Alt');
+    page.bundle.addKey('quick_links.hotkey.combination_divider','\x2B');
+  </script>
+  
+  <script type="text/javascript">quickLinks.initialize( [ '' ] );</script>
+  <script type="text/javascript">
+  		            globalNavMenu.init( true );
+  		          </script>
+  		        
+  <script type="text/javascript"> social.Profile.MY_PROFILE_TOOL_ID='BB-CORE_____myProfile'; social.Profile.MY_PROFILE_TOOL_URI='/webapps/bb-social-learning-BBLEARN/execute/mybb?cmd=display&toolId=BB-CORE_____myProfile&location='; </script>
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                page.decoratePageBanner();
+                                                             page.ContextMenu.hideMenuDiv('dd1edd63800a4d37ae3c1363fcbc0b60');
+                                                             new page.PageHelpToggler(true, 'Hjelp er på: Klikk på skjul sidehjelp.', 'Hjelp er av: Klikk for å vise sidehjelp.', false );
+                                                             breadcrumbs.rightMostNavItem = 'null';
+                                                             breadcrumbs.rightMostParentURL = '/webapps/blackboard/content/listContent.jsp?course_id=_9704_1&content_id=_397191_1&mode=reset';
+                                                             new page.PageMenuToggler(true,'courseMenuToggle_9704_1', true);
+                                                             courseMenu.nonceKey = 'blackboard.platform.security.NonceUtil.nonce.ajax';
+                                                             courseMenu.nonceValue = 'cde027df-4fc0-4c8c-aa1e-2e93b1c391c5';
+                                                             new page.PaletteController('courseMenuPalette', 'courseMenu_link', false, false);
+                                                             theCourseMenu = new courseMenu.CourseMenu('/webapps/blackboard/execute/doCourseMenuAction', '/webapps/blackboard/execute/getCourseMenuContextMenu');
+                                                             welcomeOverlay.initOverlay();
+                                                             tool_service.init ('300000', 'Suppress-Session-Timestamp-Update' );
+                                                             if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"e99ceaa32b","agent":"","beacon":"bam.nr-data.net","applicationTime":36,"applicationID":"14425732","transactionName":"YlUEYhdYCkUAWhdfX1sfNUIXTBBFIFoXX19bHwRaBFoPVA5YEVIeQlUEVxVJFxgDVQJVW1dfB0QBFwdZD00GWEQbQxJEEE0XGCxYDVdXUHIKVwtSNFcGXCJVRFxfCA==","queueTime":0}</script>
+
+
+</body></html>

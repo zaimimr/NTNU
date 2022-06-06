@@ -1,0 +1,35 @@
+# If you use virtual environment
+venv/
+
+
+# Images / Videos
+*.png
+*.jpg
+*.jpeg
+*.m4a
+*.mkv
+*.mp4
+
+# Directories/hidden files
+.cache/
+logs/
+.DS_Store
+.vscode
+__pycache__
+**/.ipynb_checkpoints/**
+
+# datasets
+data/
+datasets/
+data/coco/
+data/mnist_object_detection
+data/original_mnist
+outputs/
+outputs_old/
+data/VOCdevkit
+notebooks/data
+YOLO/datasets
+cam_results/
+performance_assessment/*
+dataset_exploration/histogram/
+dataset_exploration/tables/
