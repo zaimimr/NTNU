@@ -1,0 +1,4 @@
+Final Test loss: 6.988314066722894. Final Test accuracy: 0.7405
+Final Test loss: 6.988314066722894. Final Test accuracy: 0.7405
+Normalized Final Test Cross Entropy Loss: 6.988314066722894. Final Test accuracy: 0.7405
+Normalized Final Test Cross Entropy Loss: 0.2087431666826841. Final Test accuracy: 0.9385
