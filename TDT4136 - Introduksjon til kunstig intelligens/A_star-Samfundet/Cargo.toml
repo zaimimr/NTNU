@@ -1,0 +1,20 @@
+[package]
+name = "astar_rust"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.1"
+serde = { version = "1", features = ["derive"] }
+ndarray = "0.15.3"
+ndarray-csv = "0.5.1"
+pathfinding = "2.2.1"
+priority-queue = "1.2.0"
+
+
+piston = "0.53.0"
+piston2d-graphics = "0.40.0"
+pistoncore-glutin_window = "0.69.0"
+piston2d-opengl_graphics = "0.78.0"
