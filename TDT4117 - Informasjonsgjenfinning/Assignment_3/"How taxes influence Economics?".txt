@@ -1,0 +1,32 @@
+[('influenc', '0.52'), ('tax', '0.26'), ('econom', '0.82')]
+[paragraph 379]
+As men, like all other animals, naturally multiply in proportion to the
+means of their subsistence, food is always more or less in demand. It
+can always purchase or command a greater or smaller quantity of labour,
+and somebody can always be found who is willing to do something in order
+to obtain it. The quantity of labour, indeed, which it can purchase,
+is not always equal to what it could maintain, if managed in the most
+economical manner, on account of the high wages which are sometimes
+given to labour; but it can always purchase such a quantity of labour as
+it can maintain, according to the rate at which that sort of labour is
+commonly maintained in the neighbourhood.
+
+[paragraph 2003]
+Capitation Taxes.
+
+[paragraph 2013]
+The impossibility of taxing the people, in proportion to their revenue,
+by any capitation, seems to have given occasion to the invention of
+taxes upon consumable commodities. The state not knowing how to tax,
+directly and proportionably, the revenue of its subjects, endeavours to
+tax it indirectly by taxing their expense, which, it is supposed, will,
+in most cases, be nearly in proportion to their revenue. Their expense
+is taxed, by taxing the consumable commodities upon which it is laid
+out.
+
+[topic 3]
+0.440*"tax" + -0.205*"trade" + 0.197*"rent" + -0.169*"foreign" + -0.163*"capit" + -0.149*"employ" + -0.142*"manufactur" + 0.140*"upon" + -0.134*"quantiti" + -0.126*"labour"
+[topic 5]
+0.413*"tax" + 0.230*"capit" + 0.155*"foreign" + 0.135*"consumpt" + 0.133*"upon" + 0.132*"duti" + 0.123*"trade" + -0.114*"hi" + 0.112*"export" + 0.108*"consum"
+[topic 9]
+-0.289*"tax" + 0.214*"bank" + -0.212*"coloni" + -0.192*"labour" + 0.183*"land" + -0.162*"wage" + 0.159*"manufactur" + 0.154*"rent" + 0.149*"corn" + 0.146*"export"
