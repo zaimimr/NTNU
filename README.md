@@ -1,4 +1,4 @@
-Alle mine ikke aktive NTNU fag.
+Alle mine NTNU fag, klar for å bli kokt.
 
 Doner meg en redbull, hvis du føler deg ekstra rik og mine øvinger kom deg til nytte
 
