@@ -1,0 +1,12 @@
+path: ../RDD_YOLO_PREPROCESSING
+train: train/images
+val: val/images
+test: ../../../../../projects/vc/courses/TDT17/2022/open/RDD2022/Norway/test
+
+
+nc: 4
+names: 
+  0: D00
+  1: D10
+  2: D20
+  3: D40
